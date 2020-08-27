@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.74.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>Music Library Tools Part 2: Setting ID3 Tags&nbsp;&ndash;&nbsp;Jay Greguske&#39;s Website</title><link rel="stylesheet" href="/css/core.min.b18f2982ffabb9bf1c023028ecd7487c21258c5bc6821ce655ba275a5c63121a979437a47dd580a96c2b448e5eee0f78.css" integrity="sha384-sY8pgv&#43;rub8cAjAo7NdIfCEljFvGghzmVbonWlxjEhqXlDekfdWAqWwrRI5e7g94"><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Music Library Tools Part 2: Setting ID3 Tags" /><body><section id="header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">Jay Greguske's Website</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/about">About</a><a class="nav item" href="/blog">Blog</a></nav></div></span></div></section><section id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">Music Library Tools Part 2: Setting ID3 Tags</h1><p class="article date">2010-08-19</p></section><article class="article markdown-body"><p>Update: I&rsquo;ve made quite a few enhancements to the script:</p>
+<pre><code>Smarter Renaming
+Tags Ogg-vorbis files
+Tags FLAC files
+Handles a few more genres
+</code></pre>
+<p>ID3 tags are bits of data encoded in an mp3 file that catalogue the artist, album, year, genre, song title and other fields of metadata that explain what an mp3 is. On linux, you can manipulate these fields using the id3v2 command line utility. It&rsquo;s important to use version 2 of the ID3 tag specification because modern players skip any tagging done with version 1. Computer trivia: version 1 is encoded at the end of the mp3 file, version 2 is at the beginning. Version 1 supports only ISO-8859-1 string encodings, so international symbols like Kanji are not supported. In fact if you try to use one, you will likely corrupt the mp3. Wikipedia has more info on the subject.</p>
+<p>Anyway since id3v2 is a command line utility, I figured I could write a script around it to set all of the id3v2 tags in my mp3 collection appropriately based on their location in the directory tree. My music collection is organized as follows:</p>
+<p>music/Genre/Artist/Album</p>
+<p>Some mp3s are not sorted, and those are put in &ldquo;unsorted&rdquo; directories that may live in the Genre (if I don&rsquo;t know who the artist is) or in an Artist directory (if I don&rsquo;t know what album it is on). The script I came up with skips those directories.</p>
+<p>I went with a Perl script since I haven&rsquo;t used Perl in a while, and wanted to keep my skills sharp. There are a couple known issues with it: dollar signs in song titles will confuse it (the Perl interpreter will think they are a variable declaration) and the file name correction subroutine will be incorrect on a few edge cases. (&ldquo;46 &amp; 2&rdquo; becomes &ldquo;and 2&rdquo; because it thinks it is removing the track number from the start).</p>
+<p>Anyway, this script is attached here in the hope that some find it useful. After running it over my entire collection, just about every artist and title is displayed properly in Audacious.</p>
+</article></div>
+<div class="article bottom"><section class="article navigation"><p><a class="link" href="/blog/honeymoon_monteverde/"><span class="iconfont icon-article"></span>Honeymoon: Monteverde</a></p><p><a class="link" href="/blog/honeymoon_arenal/"><span class="iconfont icon-article"></span>Honeymoon: Arenal</a></p></section></div></section><section id="footer"><div class="footer-wrap">
+    <p class="copyright">Jay Greguske's Website</p>
+    <p class="powerby"><span>Powered&nbsp;by&nbsp;</span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span>&nbsp;&amp;&nbsp;</span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p></div></section></body>
+
+</html>

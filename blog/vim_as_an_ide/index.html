@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.74.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>Vim as an IDE&nbsp;&ndash;&nbsp;Jay Greguske&#39;s Website</title><link rel="stylesheet" href="/css/core.min.b18f2982ffabb9bf1c023028ecd7487c21258c5bc6821ce655ba275a5c63121a979437a47dd580a96c2b448e5eee0f78.css" integrity="sha384-sY8pgv&#43;rub8cAjAo7NdIfCEljFvGghzmVbonWlxjEhqXlDekfdWAqWwrRI5e7g94"><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Vim as an IDE" /><body><section id="header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">Jay Greguske's Website</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/about">About</a><a class="nav item" href="/blog">Blog</a></nav></div></span></div></section><section id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">Vim as an IDE</h1><p class="article date">2016-08-02</p></section><article class="article markdown-body"><p>Crap, it&rsquo;s been over a year since posting an update.</p>
+<p>Lately at the office I&rsquo;ve had a rare few days where I did not have any high priority work or firedrills to attend to. This is nice because I got a chance to focus on some productivity improvements, and that has been a long time coming for my editor of choice, <a href="http://www.vim.org"target="_blank">Vim</a>. I do a lot of Python development at work, and on reddit somewhere I stumbled onto a link that described how to <a href="https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/"target="_blank">turn Vim into an IDE</a>. This provided a lot of features I have not seen since messing with <a href="https://eclipse.org"target="_blank">Eclipse</a> and .Net.</p>
+<p>You can read that site for yourself, the walkthrough is pretty clear, however there were a couple of additional steps I had to take to make everything work just right. I&rsquo;ll cover that first.</p>
+<ol>
+<li>I had to install ncurses-compat-libs on Fedora 24 to make auto-completion work. Apparently the YCM server (which is started and stopped with Vim) <a href="https://github.com/Valloric/YouCompleteMe/issues/778#issuecomment-228704671"target="_blank">needs libtinfo.so.5</a>, but libtinfo.so.6 is provided in the normal system install.</li>
+<li>Remember to <code>mkdir ~/.vim/tmp</code> to make the session stuff work</li>
+<li>Install python2-flake8 and pylint (if you want) for the syntax checker and style checker to work (Syntastic)</li>
+<li>I had to mess with patched fonts a lot to get the special characters to form in Powerline.</li>
+</ol>
+<p>I had the bad habit of using tabs to display separate buffers, which is generally discouraged by the Vim community, and I&rsquo;ve been trying to stop that lately. Thus this next section is for my own use, a cheat sheet of the various commands I&rsquo;ll have to memorize. I&rsquo;m sure I&rsquo;ll set bindings if I make a habit of their use. All of these are documented with <code>:help</code> and on the github project page.</p>
+<ul>
+<li>
+<p>Buffers (I really need to bind these and look into <a href="https://github.com/jlanzarotta/bufexplorer"target="_blank">BufExplorer</a>)</p>
+<p><strong>:bn</strong> - go to the next buffer<!-- raw HTML omitted -->
+<strong>:bp</strong> - go to the previous buffer<!-- raw HTML omitted -->
+<strong>:bwipeout</strong> - delete a buffer<!-- raw HTML omitted -->
+<strong>:badd <!-- raw HTML omitted --></strong> - add a buffer</p>
+</li>
+<li>
+<p>Folding</p>
+<p><strong>space</strong> - in normal mode, fold or unfold code with the space bar<!-- raw HTML omitted -->
+<strong>zM</strong> - fold up everything<!-- raw HTML omitted -->
+<strong>zR</strong> - unfold everything<!-- raw HTML omitted -->
+<strong>zD</strong> - (recursively delete a fold at the cursor)<!-- raw HTML omitted -->
+<strong>[z</strong> - Move to the start of the current open fold. If already at the start, move to the start of the fold that contains it.<!-- raw HTML omitted -->
+<strong>]z</strong> - Move to the end of the current open fold. If already at the end, move to the end of the fold that contains it.<!-- raw HTML omitted -->
+<strong>zj</strong> - Move downwards to the start of the next fold<!-- raw HTML omitted -->
+<strong>zk</strong> - Move upwards to the end of the previous fold</p>
+</li>
+<li>
+<p>NERDTree</p>
+<p><strong>Ctrl-N:</strong> toggle the visibility of the tree, open files in new buffers</p>
+</li>
+<li>
+<p>Fugitive</p>
+<p><strong>:Git</strong> -  for running any arbitrary command<!-- raw HTML omitted -->
+<strong>:GRead</strong> - a variant of git checkout &ndash; filename that operates on the buffer rather than the filename<!-- raw HTML omitted -->
+<strong>:GWrite</strong> - writes to both the work tree and index versions of a file, making it like git add when called from a work tree file and like git checkout when called from the index or a blob in history<!-- raw HTML omitted -->
+<strong>:Gdiff</strong> - :Gdiff to bring up the staged version of the file side by side with the working tree version and use Vim&rsquo;s diff handling capabilities to stage a subset of the file&rsquo;s changes<!-- raw HTML omitted -->
+<strong>:GCommit</strong><!-- raw HTML omitted -->
+<strong>:Gblame</strong> - brings up an interactive vertical split with git blame output<!-- raw HTML omitted -->
+<strong>:Gmove</strong> - does a git mv on a file and simultaneously renames the buffer<!-- raw HTML omitted -->
+<strong>:Gremove</strong> - does a git rm on a file and simultaneously deletes the buffer</p>
+</li>
+</ul>
+<p>Even with all of these nifty features it is still not a true IDE in my opinion. The I stands for Integrated and the features themselves are not really integrated with each other. I cannot set breakpoints for code in Vim when I run the code in a given buffer, nor can I print out frame information while it is running. I cannot dynamically mess with compile options when I save a script. Do I need these things? Not really, I&rsquo;ve been living without the basics for a while, and I confess my code probably shows it. I went back to some earlier stuff and saw code in conditionals that had undefined symbols still there, it was just never found because the conditional never evaluates to True or something. Shameful.</p>
+<p>For reference, here&rsquo;s a copy of my working vimrc. This comes from years of hacking, but saw a significant rewrite after following this guide.</p>
+<pre><code>&quot; GENERAL
+set nocompatible                &quot; use vim settings; this must be first
+set backspace=indent,eol,start  &quot; allow backspace over everything in insert mode
+set directory=~/.vim/tmp        &quot; directory to place swap files in
+set iskeyword+=_,$,%,#        &quot; none of these are word dividers
+set showtabline=2               &quot; always show the tab bar
+set list                        &quot; enable showing tabs and trailing ws
+set listchars=tab:&gt;-,trail:-    &quot; small tweak to list option above
+set showmatch       &quot; show matching brackets
+set filetype=off    &quot; required for Vundle (plugin manager)
+set novisualbell    &quot; don't blink the screen on bell
+set smartindent     &quot; use language syntax to auto-indent
+set laststatus=2    &quot; always show status bar &amp; format it
+set statusline=[%F%m%r]\ [%{&amp;ff}]\ [%lx%c]\ [%L]
+set paste               &quot; avoid copying staircases
+set encoding=utf-8
+set fileformat=unix
+set number          &quot; turn on line numbers
+set numberwidth=6   &quot; We are good up to 999,999 lines
+set hidden          &quot; a buffer does not need to be displayed
+
+&quot; Python specific indentation and formating
+&quot;au BufNewFile,BufRead *.py &quot;FIXME
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set textwidth=79
+set expandtab
+set autoindent
+
+&quot; JavaScript and web stuff 
+au BufNewFile,BufRead *.js, *.html, *.css
+    \ set tabstop=2
+    \ set softtabstop=2
+    \ set shiftwidth=2
+
+&quot; Folding details
+set foldenable          &quot; Turn on folding
+set foldmethod=indent   &quot; Fold on indents
+set foldlevel=100       &quot; Don't autofold anythinhg (but still used manually)
+autocmd BufWinEnter *.py setlocal foldexpr=SimpylFold(v:lnum) foldmethod=expr
+autocmd BufWinLeave *.py setlocal foldexpr&lt; foldmethod&lt;
+
+&quot; Manage plugins
+&quot; follow https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/
+&quot;
+&quot; set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
+Plugin 'tmhedberg/SimpylFold'       &quot; folding improvements
+Plugin 'Valloric/YouCompleteMe'     &quot; autocomplete helper
+Plugin 'scrooloose/syntastic'       &quot; check syntax on save
+Plugin 'nvie/vim-flake8'            &quot; PEP8 checking on save
+Plugin 'jnurmine/Zenburn'           &quot; better color theme
+Plugin 'scrooloose/nerdtree'        &quot; file browser
+Plugin 'jistr/vim-nerdtree-tabs'    &quot; tabs for it
+Plugin 'ctrlpvim/ctrlp.vim'         &quot; better searchin
+Plugin 'tpope/vim-fugitive'         &quot; git command integration
+Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'} &quot; super status
+Plugin 'powerline/fonts'
+call vundle#end()
+filetype plugin indent on
+
+&quot; Plugin-specific configuration has to come after this line.
+
+&quot; config for SimplyFold
+let g:SimpylFold_docstring_preview=1
+
+&quot; config for YouCompleteMe
+let g:ycm_autoclose_preview_window_after_completion=1
+map &lt;leader&gt;g  :YcmCompleter GoToDefinitionElseDeclaration&lt;CR&gt;
+
+&quot; syntastic config
+let python_highlight_all=1
+syntax on
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_auto_jump = 3
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+
+&quot; NERDTree config
+let NERDTreeIgnore=['\.pyc$', '\~$'] &quot; ignore .pyc files
+
+&quot; zenburn config
+if has('gui_running')
+  set background=dark
+  colorscheme solarized
+else
+  colorscheme zenburn
+endif
+
+&quot; virtualenv support
+py &lt;&lt; EOF
+import os
+import sys
+if 'VIRTUAL_ENV' in os.environ:
+  project_base_dir = os.environ['VIRTUAL_ENV']
+  activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
+  execfile(activate_this, dict(__file__=activate_this))
+EOF
+
+&quot; KEY MAPPINGS
+&quot; Don't use Ex mode, use Q for formatting
+map Q gq
+
+&quot; easier folding
+nnoremap &lt;space&gt; za
+
+&quot; key mappings for adding/moving between tabs
+map &lt;C-t&gt; :tabnew&lt;CR&gt;
+map &lt;C-LEFT&gt; :tabp&lt;CR&gt;
+map &lt;C-RIGHT&gt; :tabn&lt;CR&gt;
+
+&quot; key mappings for moving by visual lines
+nmap &lt;A-UP&gt; gk
+nmap &lt;A-DOWN&gt; gj
+imap &lt;A-UP&gt; &lt;ESC&gt;gki
+imap &lt;A-DOWN&gt; &lt;ESC&gt;gji
+
+&quot; undo and redo
+map &lt;C-z&gt; &lt;ESC&gt;:undo&lt;CR&gt;
+map &lt;C-y&gt; &lt;ESC&gt;:redo&lt;CR&gt;
+
+&quot; Open/Close NERDTree
+map &lt;C-n&gt; :NERDTreeToggle&lt;CR&gt;
+
+&quot; open a file named the same as a word the cursor is on
+nmap gf :e &lt;cfile&gt;&lt;CR&gt;
+
+&quot; fill buffers with templates based on file extension
+autocmd BufNewFile * silent! 0r /home/jgreguske/.vim/templates/%:e.tpl
+
+&quot; use file extensions to figure out syntax
+au BufNewFile,BufRead *.ks set filetype=kickstart
+au BufNewFile,BufRead *.json set filetype=json
+
+&quot; UI TWEAKS
+if &amp;t_Co &gt; 2 || has(&quot;gui_running&quot;)  &quot; do we support colors?
+    set hlsearch                    &quot; enable highlights
+    nnoremap &lt;cr&gt; :noh &lt;cr&gt;
+endif
+
+&quot; automatically save and load sessions
+autocmd VimEnter * call LoadSession()
+autocmd VimLeave * call SaveSession()
+function! SaveSession()
+    execute 'mksession! $HOME/.vim/session.vim'
+endfunction
+function! LoadSession()
+    if argc() == 0
+        execute 'source $HOME/.vim/session.vim'
+    endif
+endfunction
+</code></pre></article></div>
+<div class="article bottom"><section class="article navigation"><p><a class="link" href="/blog/rachel_greguske/"><span class="iconfont icon-article"></span>Rachel Greguske</a></p></section></div></section><section id="footer"><div class="footer-wrap">
+    <p class="copyright">Jay Greguske's Website</p>
+    <p class="powerby"><span>Powered&nbsp;by&nbsp;</span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span>&nbsp;&amp;&nbsp;</span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p></div></section></body>
+
+</html>

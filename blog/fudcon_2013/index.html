@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.74.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>FUDCon 2013&nbsp;&ndash;&nbsp;Jay Greguske&#39;s Website</title><link rel="stylesheet" href="/css/core.min.b18f2982ffabb9bf1c023028ecd7487c21258c5bc6821ce655ba275a5c63121a979437a47dd580a96c2b448e5eee0f78.css" integrity="sha384-sY8pgv&#43;rub8cAjAo7NdIfCEljFvGghzmVbonWlxjEhqXlDekfdWAqWwrRI5e7g94"><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="FUDCon 2013" /><body><section id="header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">Jay Greguske's Website</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/about">About</a><a class="nav item" href="/blog">Blog</a></nav></div></span></div></section><section id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">FUDCon 2013</h1><p class="article date">2013-01-22</p></section><article class="article markdown-body"><p>Last week I was in Lawrence, Kansas attending the Fedora Users and Developers Conference and not enjoying Kansas BBQ because it was too far away from the city. However, the <a href="http://fedoraproject.org/wiki/FUDCon:Lawrence_2013"target="_blank">event itself</a> was productive.</p>
+<p>Like all FUDCons, it was barcamp style talks. I&rsquo;ll recap the ones I attended first:</p>
+<ul>
+<li>Cloud Server Stacks for F19</li>
+<li>Secure Boot Q and A</li>
+<li>Overhauling the Release Model</li>
+<li>Coprs</li>
+<li>Intro to the Installer</li>
+</ul>
+<p>Secure Boot and the Installer did not reveal anything novel to me. If you follow <!-- raw HTML omitted -->Matthew Garrett&rsquo;s blog<!-- raw HTML omitted --> you already know everything that was covered. Cloud Server Stacks was about OpenStack and Eucalpytus support in Fedora, but it got sidetracked into doing introductions of <!-- raw HTML omitted -->ImageFactory and Oz<!-- raw HTML omitted --> from the <!-- raw HTML omitted -->Aeolus project<!-- raw HTML omitted --> when the conversation steered towards how cloudy images are built.</p>
+<p>Coprs was an interesting talk about building 3rd party packages for Fedora. They&rsquo;re like Ubuntu&rsquo;s PPAs, but not quite the same. <!-- raw HTML omitted -->Seth Vidal<!-- raw HTML omitted --> essentially wrote a separate build system to create and maintain them. As a Koji contributor I feel like this came about because of Koji&rsquo;s own shortcomings. We don&rsquo;t want to build 3rd party stuff in Koji because we don&rsquo;t trust it, but really Koji should be secure enough to support this use case. I recognize the cat-and-mouse model of security professionals versus jerks, but I still think this can be done:</p>
+<h1 id="enable-selinux-on-the-builders-and-hub-this-will-require-an-selinux-policy-for-mock">Enable SELinux on the builders and hub. This will require an SELinux policy for mock.</h1>
+<h1 id="using-post-build-plugins-run-clamav-and-coverity-on-the-build-results">Using post-build plugins, run ClamAV and Coverity on the build results</h1>
+<h1 id="using-tag-policy-do-not-all-3rd-party-results-to-be-inherited-into-the-base-distro">Using tag policy, do not all 3rd party results to be inherited into the base distro</h1>
+<p>The release overhaul was interesting too, but it also go sidetracked with counter-arguments and hand waving. The idea was to shift from a 20, 21, 22, 23 [&hellip;] release cycle every 6 months to a 20.0, 20.1, 20.2, 20.3, 21.0, 21.1 [&hellip;] cycle. Each release would still be 6 months apart, but over the 24 month period 20 was active, larger features could be scoped and planned. 20.0 and 20.1 would be rough, disruptive releases, but 20.2 and 20.3 would be the polished releases. This would help users understand what they were in for before installing something like Fedora 15, which would be considered by many to be a disruptive release. (Gnome 3 came out and the number of unique IPs getting yum updates fell by more than 40%. That number is under some dispute.) It remains to be seen if this proposal moves forward.</p>
+<p>After the talks were the hackfests, but for me they were more like yakfests. Lots of talking and planning, little coding. This still saved me weeks of email thread exchanges from the office though, so I count it a win. The output is <!-- raw HTML omitted -->this Fedora 19 feature request<!-- raw HTML omitted --> which will soon be put to a vote by <!-- raw HTML omitted -->FESCO<!-- raw HTML omitted -->. All of the Koji integration work is to be done by me, with Ian McLeod implementing requested featured on the ImageFactory/Oz side.</p>
+<p>Exciting!</p>
+<p>A bunch of G+ related posts can be found with the <!-- raw HTML omitted -->#FUDCon<!-- raw HTML omitted --> hashtag.</p>
+</article></div>
+<div class="article bottom"><section class="article navigation"><p><a class="link" href="/blog/how_to_get_extreme/"><span class="iconfont icon-article"></span>How to Get Extreme</a></p><p><a class="link" href="/blog/steam_on_fedora/"><span class="iconfont icon-article"></span>Steam on Fedora</a></p></section></div></section><section id="footer"><div class="footer-wrap">
+    <p class="copyright">Jay Greguske's Website</p>
+    <p class="powerby"><span>Powered&nbsp;by&nbsp;</span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span>&nbsp;&amp;&nbsp;</span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p></div></section></body>
+
+</html>

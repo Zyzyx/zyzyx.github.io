@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.74.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>12 Tops&nbsp;&ndash;&nbsp;Jay Greguske&#39;s Website</title><link rel="stylesheet" href="/css/core.min.b18f2982ffabb9bf1c023028ecd7487c21258c5bc6821ce655ba275a5c63121a979437a47dd580a96c2b448e5eee0f78.css" integrity="sha384-sY8pgv&#43;rub8cAjAo7NdIfCEljFvGghzmVbonWlxjEhqXlDekfdWAqWwrRI5e7g94"><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="12 Tops" /><body><section id="header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">Jay Greguske's Website</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/about">About</a><a class="nav item" href="/blog">Blog</a></nav></div></span></div></section><section id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">12 Tops</h1><p class="article date">2012-08-26</p></section><article class="article markdown-body"><p>The <a href="http://12tops.brolem.net"target="_blank">12 Tops Encyclopedia</a> is back up, now running on <!-- raw HTML omitted -->OpenShift<!-- raw HTML omitted -->. For now, OpenShift is free, and there will always be a free tier, but eventually heavy users of the service will be charged. I don&rsquo;t expect that to be us. I plan to move <!-- raw HTML omitted -->Prithiva<!-- raw HTML omitted --> and the main Brolem site there too.</p>
+<p>Here&rsquo;s how I completed the migration. If you want your own hosted MediaWiki (or whatever else), give OpenShift a try. So far it was pretty painless.</p>
+<!-- raw HTML omitted -->
+<p>At this point I had a working fresh installation. However, I had a database dump from an older version of MediaWiki that I needed to import, so there were a few additional steps.</p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->Update 1:<!-- raw HTML omitted --> Images can be uploaded by copying them from the existing site to a specific directory on the hosting system. The source will be <!-- raw HTML omitted -->$wiki_root/images/*<!-- raw HTML omitted -->, and you&rsquo;ll want to put them in a similar location on the OpenShift site. However, if you look in your git clone, the <!-- raw HTML omitted -->images<!-- raw HTML omitted --> directory is actually a broken symlink to <!-- raw HTML omitted -->../../data<!-- raw HTML omitted -->. I suspect this is to keep images out of the repo itself so it does not count against your quota, but it means you&rsquo;ll need to copy them to the system itself via scp rather than &lsquo;git push&rsquo;. The symlink resolves fine host-side.</p>
+<p><!-- raw HTML omitted -->Update 2:<!-- raw HTML omitted --> Skins can easily be added, just commit custom ones in the <!-- raw HTML omitted -->$root/php/skins<!-- raw HTML omitted --> directory in your repository. Include the capitalized header file too (like Dusk.php in my case), and don&rsquo;t forget to update LocalSettings.php if you want it to be the default.</p>
+<p>A few maps I neglected to save, but over all the site looks intact. There are still some user-account kinks to work out. For example, only users with confirmed email addresses are allowed to create and edit pages, but the emailer does not seem to be working. It also lacks the dark-skinned theme, but I didn&rsquo;t save that either, and I don&rsquo;t have it in me to bash the CSS into submission again. Does anyone know a good way to edit and review CSS on the fly?</p>
+</article></div>
+<div class="article bottom"><section class="article navigation"><p><a class="link" href="/blog/half-life_throwback/"><span class="iconfont icon-article"></span>Half-Life Throwback</a></p><p><a class="link" href="/blog/clouds/"><span class="iconfont icon-article"></span>Clouds</a></p></section></div></section><section id="footer"><div class="footer-wrap">
+    <p class="copyright">Jay Greguske's Website</p>
+    <p class="powerby"><span>Powered&nbsp;by&nbsp;</span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span>&nbsp;&amp;&nbsp;</span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p></div></section></body>
+
+</html>

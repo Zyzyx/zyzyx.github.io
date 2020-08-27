@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.74.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>vimrc&nbsp;&ndash;&nbsp;Jay Greguske&#39;s Website</title><link rel="stylesheet" href="/css/core.min.b18f2982ffabb9bf1c023028ecd7487c21258c5bc6821ce655ba275a5c63121a979437a47dd580a96c2b448e5eee0f78.css" integrity="sha384-sY8pgv&#43;rub8cAjAo7NdIfCEljFvGghzmVbonWlxjEhqXlDekfdWAqWwrRI5e7g94"><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="vimrc" /><body><section id="header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">Jay Greguske's Website</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/about">About</a><a class="nav item" href="/blog">Blog</a></nav></div></span></div></section><section id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">vimrc</h1><p class="article date">2010-06-10</p></section><article class="article markdown-body"><p>I recently read Hacking Vim in a fit of nerdiness. Honestly, I don&rsquo;t recommend the book: too much of it involved tricks for gvim, which I don&rsquo;t use and is not practical for use in my work environment. Still, I did glean several useful tricks and configuration tips that will be useful. I shall include my new and improved vimrc file here for others to peruse.</p>
+<pre><code>&quot; format the status bar
+:set laststatus=2
+:set statusline=[%F%m%r] [%{&amp;ff}] [%lx%c] [%L]
+
+&quot; always show the tab bar
+:set showtabline=2
+
+&quot; key mappings for adding/moving between tabs
+:map &lt;C-t&gt; :tabnew&lt;CR&gt;
+:map &lt;C-left&gt; :tabp&lt;CR&gt;
+:map &lt;C-right&gt; :tabn&lt;CR&gt;
+
+&quot; key mappings for moving by visual lines
+:nmap &lt;A-UP&gt; gk
+:nmap &lt;A-DOWN&gt; gj
+:imap &lt;A-UP&gt; &lt;ESC&gt;gki
+:imap &lt;A-DOWN&gt; &lt;ESC&gt;gji
+
+&quot; open a file named the same as a word the cursor is on
+:nmap gf :tabf &lt;cfile&gt;&lt;CR&gt;
+
+&quot; fill buffers with templates based on file extension
+:autocmd BufNewFile * silent! 0r /home/jgreguske/.vim/templates/%:e.tpl
+
+&quot; automatically create ctags when a file is opened, map keys to use them
+:autocmd BufWritePost * silent !ctags &quot;%&quot;
+:autocmd BufReadPost * silent !ctags &quot;%&quot;
+:autocmd VimLeave * call delete(&quot;tags&quot;)
+:nmap s &lt;C-]&gt;
+:nmap S :pop&lt;CR&gt;
+
+&quot; automatically save and load sessions
+:autocmd VimEnter * call LoadSession()
+:autocmd VimLeave * call SaveSession()
+function! SaveSession()
+    execute 'mksession! $HOME/.vim/session.vim'
+endfunction
+function! LoadSession()
+    if argc() == 0
+        execute 'source $HOME/.vim/session.vim'
+    endif
+endfunction
+
+&quot; undo
+:map &lt;C-z&gt; &lt;ESC&gt;:undo&lt;CR&gt;
+
+&quot; add an underline 
+:nmap &lt;C-u&gt; yypVr=o
+
+&quot; indentation config
+:set tabstop=4
+:set expandtab
+:set shiftwidth=4
+:set smartindent
+
+&quot; When writing Python files check the syntax
+:autocmd BufWriteCmd *.py call CheckPythonSyntax()
+function CheckPythonSyntax()
+    &quot; Write the current buffer to a temporary file, check the syntax and
+    &quot; if no syntax errors are found, write the file
+    let curfile = bufname(&quot;%&quot;)
+    let tmpfile = tempname()
+    silent execute &quot;write! &quot;.tmpfile
+    let output = system(&quot;python -c &quot;__import__('py_compile').compile(r'&quot;.tmpfile.&quot;')&quot; 2&gt;&amp;1&quot;)
+    if output != ''
+        &quot; Make sure the output specifies the correct filename
+        let output = substitute(output, fnameescape(tmpfile), fnameescape(curfile), &quot;g&quot;)
+        echo output
+    else
+        write
+    endif
+    &quot; Delete the temporary file when done
+    call delete(tmpfile)
+endfunction
+</code></pre></article></div>
+<div class="article bottom"><section class="article navigation"><p><a class="link" href="/blog/ion_2010/"><span class="iconfont icon-article"></span>ION 2010</a></p><p><a class="link" href="/blog/metarpg_news/"><span class="iconfont icon-article"></span>MetaRPG News</a></p></section></div></section><section id="footer"><div class="footer-wrap">
+    <p class="copyright">Jay Greguske's Website</p>
+    <p class="powerby"><span>Powered&nbsp;by&nbsp;</span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span>&nbsp;&amp;&nbsp;</span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p></div></section></body>
+
+</html>

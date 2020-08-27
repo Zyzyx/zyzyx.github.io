@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.74.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>Droid Incredible Rooted&nbsp;&ndash;&nbsp;Jay Greguske&#39;s Website</title><link rel="stylesheet" href="/css/core.min.b18f2982ffabb9bf1c023028ecd7487c21258c5bc6821ce655ba275a5c63121a979437a47dd580a96c2b448e5eee0f78.css" integrity="sha384-sY8pgv&#43;rub8cAjAo7NdIfCEljFvGghzmVbonWlxjEhqXlDekfdWAqWwrRI5e7g94"><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Droid Incredible Rooted" /><body><section id="header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">Jay Greguske's Website</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/about">About</a><a class="nav item" href="/blog">Blog</a></nav></div></span></div></section><section id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">Droid Incredible Rooted</h1><p class="article date">2011-01-18</p></section><article class="article markdown-body"><p>While the Droid Incredible does a lot of cool things and lots of nifty apps exist for it, the one thing it can&rsquo;t do out of the box is remove pre-installed crap courtesy of the carrier. This included integration with Facebook, Twitter, Flickr, and Verizon&rsquo;s own implementations for map navigation and video/picture sharing suites. After 2 days of use, I couldn&rsquo;t take having the bloat anymore.</p>
+<p>I followed this guide. For the most part it worked as described, however there are a few addendums I will point out here.</p>
+<ul>
+<li>Download Section: Step 5 and step 6 can be omitted.</li>
+<li>Getting Ready: Step 4 can be omitted.</li>
+<li>unrevoked recovery reflash tool: The application is called reflash_package.exe</li>
+</ul>
+<p>The Unrevoked3 folks have not disclosed the nature of the exploit yet but it is clear that it lives the USB drivers used to interface with a computer when it is connected to one. The payload overwrites the recovery image with their own custom one, today that is ClockworkMod. This is why there is a risk of bricking your phone: if the update fails, you don&rsquo;t have a recovery image. If you don&rsquo;t have that and you trash the main interface, you&rsquo;re boned for good. Fork over another $400.</p>
+<p>Once ClockworkMod is installed you can get to it by HBOOTing the phone (this is in the guide but not where you&rsquo;d expect to read it) by holding volume-down and power at the same time. This will take you to a boot menu where you can select Recovery. Use volume-up and volume-down to access it, and the power button to select it. Executing the Recovery option will start up ClockworkMod where the interface is a little different: power is the &ldquo;back&rdquo; button, pushing in the joystick (center bottom of the phone) is how you select options.</p>
+<p>There are a lot of customization options available to you: custom ROMs, kernels, and Android OS updates. Personally I don&rsquo;t plan to explore many of them, I just wanted Facebook, Flickr, VCast, AmazonMP3 and Twitter out of my face.</p>
+</article></div>
+<div class="article bottom"><section class="article navigation"><p><a class="link" href="/blog/droid_tethering/"><span class="iconfont icon-article"></span>Droid Tethering</a></p><p><a class="link" href="/blog/metarpg_0.2_released/"><span class="iconfont icon-article"></span>MetaRPG 0.2 Released</a></p></section></div></section><section id="footer"><div class="footer-wrap">
+    <p class="copyright">Jay Greguske's Website</p>
+    <p class="powerby"><span>Powered&nbsp;by&nbsp;</span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span>&nbsp;&amp;&nbsp;</span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p></div></section></body>
+
+</html>

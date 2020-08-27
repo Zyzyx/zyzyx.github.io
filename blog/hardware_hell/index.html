@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.74.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>Hardware Hell&nbsp;&ndash;&nbsp;Jay Greguske&#39;s Website</title><link rel="stylesheet" href="/css/core.min.b18f2982ffabb9bf1c023028ecd7487c21258c5bc6821ce655ba275a5c63121a979437a47dd580a96c2b448e5eee0f78.css" integrity="sha384-sY8pgv&#43;rub8cAjAo7NdIfCEljFvGghzmVbonWlxjEhqXlDekfdWAqWwrRI5e7g94"><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Hardware Hell" /><body><section id="header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">Jay Greguske's Website</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/about">About</a><a class="nav item" href="/blog">Blog</a></nav></div></span></div></section><section id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">Hardware Hell</h1><p class="article date">2010-10-31</p></section><article class="article markdown-body"><p>My dubiously functioning hardware gave me a scare this afternoon as I tried to install 4 more gigabytes of RAM.</p>
+<p>Presently it only has 2G, so I figured it was time for an upgrade to 6G before installing Win 7. Once I installed the pair of 2G sticks however, all was not well. Powering the computer on would lead to one of two results, I could not discern a pattern: never display anything or beep, or print out the the following to the console:</p>
+<pre><code>Award BootBlock BIOS v1.0
+BIOS ROM Checksum error
+Detecting Floppy drive A media ... failed
+Detecting CDROM media ... failed
+
+System halting
+</code></pre><p>It occurred to me that this may be expected to happen since the hardware profile has changed, but there was no way for me to get into the BIOS set up utility. Please trust me when I say I know how to get into my system&rsquo;s BIOS. :) It really wasn&rsquo;t possible.</p>
+<p>So I decided to reset the CMOS. For my motherboard which is an ASUS P5N-E the steps are:</p>
+<ol>
+<li>Disconnect power, remove CMOS battery</li>
+<li>Move CMOS reset jumper (located under SATA ports) from 1-2 position to 2-3</li>
+<li>Wait 20 seconds</li>
+<li>Move CMOS reset jumper back to position 1-2</li>
+<li>Replace CMOS battery, reconnect power</li>
+</ol>
+<p>I completed these steps and booted successfully into the BIOS set up. I was starting to feel relieved when the BIOS setup utility actually hung after 17 seconds. I rebooted several times and experienced the same thing (or the useless black screen again). I attempted to replace the CMOS battery itself (and reset CMOS again) but this did not change the behavior.</p>
+<p>Now I&rsquo;m starting to worry because I do not like the risk associated with flashing my BIOS, which appeared to be my next option. Instead I removed the RAM, reset and rebooted. After restoring my old BIOS settings, I was able to boot back up normally with just my old RAM. Relief!</p>
+<p>So here I am with the 2G sticks in front of me, and I&rsquo;m wondering if I should try again. Pensively I was looking at the packaging, and I noticed the corner of it looks like it suffered an impact. The electronics look ok though. I&rsquo;m strongly inclined to RMA the RAM and try again with replacements.</p>
+<p>Have you guys heard of new RAM trashing your BIOS like that, or have another explanation for what I experienced? The setup utility hanging is rather scary, but I don&rsquo;t understand how bad RAM could do that. The intermittent black-screen boots make me think there is a power issue. My PSU is 550W. The other hardware is:</p>
+<ul>
+<li>GeForce 8800 GTX</li>
+<li>1 SATA, 1 IDE hard drive</li>
+<li>DVD ROM, external HD, few USB peripherals</li>
+<li>Intel QX6700 CPU</li>
+</ul>
+</article></div>
+<div class="article bottom"><section class="article navigation"><p><a class="link" href="/blog/fedora_14/"><span class="iconfont icon-article"></span>Fedora 14</a></p><p><a class="link" href="/blog/dirty_coding/"><span class="iconfont icon-article"></span>Dirty Coding</a></p></section></div></section><section id="footer"><div class="footer-wrap">
+    <p class="copyright">Jay Greguske's Website</p>
+    <p class="powerby"><span>Powered&nbsp;by&nbsp;</span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span>&nbsp;&amp;&nbsp;</span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p></div></section></body>
+
+</html>

@@ -6,6 +6,7 @@
     <description>Recent content on Jay Greguske&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 02 Aug 2016 22:25:31 -0400</lastBuildDate>
     
         <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +20,16 @@
       <description>All opinons here are my own, not my employer or any other organization cited here.
 Career I started with a 2 year stint at HP as a software developer, got laid off, and have worked at Red Hat, Inc. ever since. It&amp;rsquo;s been good, I&amp;rsquo;m not actively looking for a new job. IBM continues to behave like an ally too, which is encouraging.
 It&amp;rsquo;s been about 11 years now; the first few years I was a release engineer, eventually became a technical lead for the team, then the lead for a team of teams.</description>
+      
+    </item>
+    
+    <item>
+      <title>Blogs</title>
+      <link>/blog/</link>
+      <pubDate>Tue, 02 Aug 2016 22:25:31 -0400</pubDate>
+      
+      <guid>/blog/</guid>
+      <description></description>
       
     </item>
     

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.74.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>Dirty Coding&nbsp;&ndash;&nbsp;Jay Greguske&#39;s Website</title><link rel="stylesheet" href="/css/core.min.b18f2982ffabb9bf1c023028ecd7487c21258c5bc6821ce655ba275a5c63121a979437a47dd580a96c2b448e5eee0f78.css" integrity="sha384-sY8pgv&#43;rub8cAjAo7NdIfCEljFvGghzmVbonWlxjEhqXlDekfdWAqWwrRI5e7g94"><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Dirty Coding" /><body><section id="header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">Jay Greguske's Website</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/about">About</a><a class="nav item" href="/blog">Blog</a></nav></div></span></div></section><section id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">Dirty Coding</h1><p class="article date">2010-10-23</p></section><article class="article markdown-body"><p>Recently I came into possession of the sources for Agobot3, the parent of many modern worms that join grandma&rsquo;s computer to botnets. I&rsquo;ve been studying the code a bit and found a couple blocks I found rather interesting.</p>
+<p>Notably, Agobot3 has code in it to detect if it is being run in a debugger. This is specifically to make reverse engineering it harder for the security community. Now that the sources are out it&rsquo;s rather moot, but still worth walking through for the sake of learning. Observe:</p>
+<pre><code>__inline bool IsBPX(void *address) {
+    _asm {
+        mov esi, address  (1)
+        mov al, [esi]     (2)
+        cmp al, 0xCC      (3)
+        je BPXed          (4)
+        xor eax, eax      (5)
+        jmp NOBPX         (6)
+BPXed:
+        mov eax, 1        (7)
+NOBPX:
+    }
+}
+</code></pre><p>This function checks to see if the given address has been set as a break point in a debugger, and returns True if so, False if not. Notice the use of raw assembly here; I&rsquo;ll translate it:</p>
+<ul>
+<li>First we take the function address (the place the code lives in memory) and store that value in a register called &ldquo;esi&rdquo;</li>
+<li>Next we take the first opcode (machine level processor instruction) and store that into &ldquo;al&rdquo;. This is the very first thing the code pointed to by &ldquo;esi&rdquo; would attempt to do.</li>
+<li>This is the magic. We compare that first opcode with with value 0xCC, which is a special opcode injected into running code by debugging programs to signal a breakpoint. I&rsquo;ll explain below.</li>
+<li>If 3&rsquo;s comparison was true, jump (read: goto) to BPXed.</li>
+<li>This line only is evaluated if we didn&rsquo;t jump before. We XOR the contents of &ldquo;eax&rdquo; with itself, which if you know your boolean logic, you know that always returns false.</li>
+<li>Jump to NOBPX. Note there is no code beyond that location, so the function returns the contents of &ldquo;eax&rdquo;. If we didn&rsquo;t jump after line 3, eax is false.</li>
+<li>Move the value &lsquo;1&rsquo; into &ldquo;eax&rdquo;. &lsquo;1&rsquo; in this context is synonymous with &ldquo;True&rdquo;. Since there is no code to execute in this function, the function returns the contents of &ldquo;eax&rdquo;.</li>
+</ul>
+<p>Break points are places in running code programmers set to halt execution. When a breakpoint is hit, execution stops and usually the debugger (such as gdb, SoftICE, etc) lets you poke around different parts of memory to see what is what. The way setting breakpoints work is the debugger injects a special opcode at the beginning of the piece of code you&rsquo;re going to execute which causes the executing program to return control the debugger.</p>
+<p>That special opcode&rsquo;s ID number is 0xCC, and this is true for almost all debuggers. By detecting this opcode, Agobot3 can figure out it is being run in a debugger, and do some nasty things to itself to make reverse engineering the binary much harder. Indeed, this function is used in many places:</p>
+<pre><code>08:44 PM box:~/downloads/bot $ grep IsBPX *
+Binary file agobot3.ncb matches
+utility.cpp:__inline bool IsBPX(void *address) {
+utility.cpp:	if(IsBPX(&amp;IsBPX)) {
+utility.cpp:		g_pMainCtrl-&gt;m_cConsDbg.Log(5, &quot;Breakpoint set on IsBPX, debugger active...n&quot;);
+utility.cpp:	if(IsBPX(&amp;IsSICELoaded)) {
+utility.cpp:	if(IsBPX(&amp;IsSoftIceNTLoaded)) {
+utility.cpp:	if(IsBPX(&amp;IsVMWare)) {
+utility.cpp:		if(IsBPX(&amp;IsDbgPresent)) {
+</code></pre><p>Specifically, it looks to see if breakpoints are placed where the author expects security professionals to place them: on functions that check for debuggers or whether it is being run in a virtual machine. So what does Agobot3 do when it figures out it is in a debugger, or running in a VM? It terminates itself immediately.</p>
+</article></div>
+<div class="article bottom"><section class="article navigation"><p><a class="link" href="/blog/hardware_hell/"><span class="iconfont icon-article"></span>Hardware Hell</a></p><p><a class="link" href="/blog/horror_mechanics_in_amnesia_tdd/"><span class="iconfont icon-article"></span>Horror Mechanics in Amnesia: TDD</a></p></section></div></section><section id="footer"><div class="footer-wrap">
+    <p class="copyright">Jay Greguske's Website</p>
+    <p class="powerby"><span>Powered&nbsp;by&nbsp;</span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span>&nbsp;&amp;&nbsp;</span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p></div></section></body>
+
+</html>

@@ -1,23 +1,1521 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Blogs on Website for Jay Greguske</title>
+    <title>Blogs on Jay Greguske&#39;s Website</title>
     <link>/blog/</link>
-    <description>Recent content in Blogs on Website for Jay Greguske</description>
+    <description>Recent content in Blogs on Jay Greguske&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2020 08:36:49 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 02 Aug 2016 22:25:31 -0400</lastBuildDate>
     
         <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test Post</title>
-      <link>/blog/test-post/</link>
-      <pubDate>Sun, 23 Aug 2020 08:36:49 -0400</pubDate>
+      <title>Vim as an IDE</title>
+      <link>/blog/vim_as_an_ide/</link>
+      <pubDate>Tue, 02 Aug 2016 22:25:31 -0400</pubDate>
       
-      <guid>/blog/test-post/</guid>
-      <description>Is this visible?</description>
+      <guid>/blog/vim_as_an_ide/</guid>
+      <description>Crap, it&amp;rsquo;s been over a year since posting an update.
+Lately at the office I&amp;rsquo;ve had a rare few days where I did not have any high priority work or firedrills to attend to. This is nice because I got a chance to focus on some productivity improvements, and that has been a long time coming for my editor of choice, Vim. I do a lot of Python development at work, and on reddit somewhere I stumbled onto a link that described how to turn Vim into an IDE.</description>
+      
+    </item>
+    
+    <item>
+      <title>Rachel Greguske</title>
+      <link>/blog/rachel_greguske/</link>
+      <pubDate>Sun, 31 May 2015 09:39:49 -0400</pubDate>
+      
+      <guid>/blog/rachel_greguske/</guid>
+      <description>On May 9th after an unplanned procedure our daughter was born 6 weeks early. Last Friday she was finally discharged from the NICU and we began the parental journey.
+All I&amp;rsquo;m going to say is that you get an opportunity to start a family of your own, take it.</description>
+      
+    </item>
+    
+    <item>
+      <title>Elite: Dangerous</title>
+      <link>/blog/elite_dangerous/</link>
+      <pubDate>Sat, 30 May 2015 17:41:07 -0400</pubDate>
+      
+      <guid>/blog/elite_dangerous/</guid>
+      <description>My current game to cram in between fits of productivity is Elite: Dangerous. There are many reviews you can easily find on Google, so I will try not be repetitive here. Instead, I&amp;rsquo;d like to highlight the sense of wonder and exploration the game instills.
+The game is a space ship simulator, and it does this very well. You may have heard that space is pretty big! Points of interested may be kilometers, megameters, light-seconds, or light years apart.</description>
+      
+    </item>
+    
+    <item>
+      <title>Supergiant Games</title>
+      <link>/blog/supergiant_games/</link>
+      <pubDate>Mon, 02 Feb 2015 17:18:41 -0400</pubDate>
+      
+      <guid>/blog/supergiant_games/</guid>
+      <description>The video game studio Supergiant Games, creators of Bastionand Transistor, have succeeded in becoming one of may favorite studios. Their company goal:
+We want to make games that spark your imagination like the games you played as a kid. A bold statement, but I think they&amp;rsquo;ve succeeded. They both sport bright colors and a unique art style that is instantly recognizable. Music supports their games exactly like music should, you can listen to complete albums for Bastionand Transistor.</description>
+      
+    </item>
+    
+    <item>
+      <title>Getting My Data Under Control</title>
+      <link>/blog/getting_my_data_under_control/</link>
+      <pubDate>Sun, 25 Jan 2015 10:28:16 -0400</pubDate>
+      
+      <guid>/blog/getting_my_data_under_control/</guid>
+      <description>One of my new years&amp;rsquo; resolutions was to better understand how data about me on the internet is being used by corporate entities and governments, and better control it on my end. I realize it is nearly impossible to control it completely, my mortage information was resold mere weeks after getting a house; Google has been vaccuuming up my browsing habits for years, and Verizon does it on my phone. Despite that, my goal is to understand what I can and do what I can.</description>
+      
+    </item>
+    
+    <item>
+      <title>Moved to Ghost</title>
+      <link>/blog/moved_to_ghost/</link>
+      <pubDate>Sat, 24 Jan 2015 14:43:32 -0400</pubDate>
+      
+      <guid>/blog/moved_to_ghost/</guid>
+      <description>A snow storm today ruined my routine for chores around the house. So instead of that I migrated my blog from a Drupal deployment to Ghost. I stuck Google+ comments to it for now too.
+I&amp;rsquo;ve been sitting on a few posts for a while, but putting it off to get this migration out of the way. A lot has been going on professionally and personally.</description>
+      
+    </item>
+    
+    <item>
+      <title>Voting in 2014</title>
+      <link>/blog/voting_in_2014/</link>
+      <pubDate>Sun, 26 Oct 2014 14:23:00 -0400</pubDate>
+      
+      <guid>/blog/voting_in_2014/</guid>
+      <description>November 4th is a midterm election day here in the states, but it is not the presidential election day, so it often goes ignored by the American public. How is someone supposed to find time to research multiple candidates for multiple positions? The majority of the ads are negative and filled with exaggerations about how bad the other guy is, so this makes voter education very difficult. Granted, this isn&amp;rsquo;t a good excuse, but it is common enough that it needs to be addressed somehow.</description>
+      
+    </item>
+    
+    <item>
+      <title>Whisky Live</title>
+      <link>/blog/whisky_live/</link>
+      <pubDate>Sun, 26 Oct 2014 14:23:00 -0400</pubDate>
+      
+      <guid>/blog/whisky_live/</guid>
+      <description>On Friday I attended Whisky Live in Boston. It was held on the 33rd floor of 60 State Street, which is a classy venue for sure: tall windows overlooking the city-scape at night, live jazz music, and 43 vendors offering various whiskies.
+There were far fewer scotch whiskies there than I expected, and far more bourbons and ryes. There were even some tequilas and vodkas, which I skipped. I noticed a trend of having maple-infused bourbons too, many of the vendors offering such were based in Vermont.</description>
+      
+    </item>
+    
+    <item>
+      <title>OpenWRT</title>
+      <link>/blog/openwrt/</link>
+      <pubDate>Tue, 14 Oct 2014 14:22:00 -0400</pubDate>
+      
+      <guid>/blog/openwrt/</guid>
+      <description>Yes, I&amp;rsquo;m writing this during a marathon of meetings at the office. I&amp;rsquo;m advocating an Open Source project, so that is close enough to work for now. There&amp;rsquo;s more benefit to the company than these meetings at least.
+Last weekend I flashed my router, an ASUS NT-16, with OpenWRT. It was previously flashed with TomatoUSB, but I found out a few months ago that development had pretty much ended. I&amp;rsquo;m not sure where interest went, but I saw that OpenWRT gets a lot of sponsorship from the EFF, so I figured it was a good bet.</description>
+      
+    </item>
+    
+    <item>
+      <title>Divinity: Original Sin</title>
+      <link>/blog/divinity_original_sin/</link>
+      <pubDate>Sun, 12 Oct 2014 14:21:00 -0400</pubDate>
+      
+      <guid>/blog/divinity_original_sin/</guid>
+      <description>Muffin and I have put around 60 hours into Divinity: Original Sin, so I figure it is about time for a review. Born from a very successful Kickstarter campaign, Divinity gives players a taste of Baldur&amp;rsquo;s Gate might have been like if it was released in 2014. For an &amp;ldquo;indie&amp;rdquo; game, it is pretty well designed and polished, except for a few spots which I&amp;rsquo;ll get into later. We have found the whole package a lot of fun and strongly recommend it.</description>
+      
+    </item>
+    
+    <item>
+      <title>Great Britain Trip</title>
+      <link>/blog/great_britain_trip/</link>
+      <pubDate>Sun, 24 Aug 2014 14:20:00 -0400</pubDate>
+      
+      <guid>/blog/great_britain_trip/</guid>
+      <description>The last 2 weeks the wife and I were touring about Great Britain. We had busy days for sure with some tours and bus-rides scheduled in advance, and a couple days left unscheduled until the night before in the various cities we stayed in. I&amp;rsquo;ve been calling this trip our 2nd Honeymoon, the first one we had was Costa Rica and was more of a Eco-Tour sort of thing while we wandered around trails and peaks within rainforests.</description>
+      
+    </item>
+    
+    <item>
+      <title>D&amp;D Next</title>
+      <link>/blog/dd_next/</link>
+      <pubDate>Sat, 23 Aug 2014 14:20:00 -0400</pubDate>
+      
+      <guid>/blog/dd_next/</guid>
+      <description>Wizards of the Coast posted early drafts of the Core Rules of D&amp;amp;D Next, also known as 5th edition. Whether this will remain in place when it actually releases with hard cover books or not I do not know. They&amp;rsquo;re very slim with only a few classes, races, and spells.
+I looked over the PHB for an hour and I was surprised by the return of a lot of earlier mechanics such as spell slot progressions, and all 9 alignments.</description>
+      
+    </item>
+    
+    <item>
+      <title>HOPE 2014</title>
+      <link>/blog/hope_2014/</link>
+      <pubDate>Sun, 03 Aug 2014 14:19:00 -0400</pubDate>
+      
+      <guid>/blog/hope_2014/</guid>
+      <description>A few weekends ago I was in New Your City attending the 10th HOPE conference, which is short for Hackers on Planet Earth. I enjoyed this one more than the last DefCons I&amp;rsquo;ve been to (17 and 20), and I want to share why.
+DefCon is very much about the technology, and the scene. Presenters are comfortable being informal and provocative with their content. It&amp;rsquo;s cool to be a hacker, and fuck anyone that says otherwise!</description>
+      
+    </item>
+    
+    <item>
+      <title>VG Soundtracks</title>
+      <link>/blog/vg_soundtracks/</link>
+      <pubDate>Sun, 08 Jun 2014 14:18:00 -0400</pubDate>
+      
+      <guid>/blog/vg_soundtracks/</guid>
+      <description>A lengthy email thread about video game soundtracks manifested at work over the last week. The original question posed was, &amp;ldquo;Does anyone else listen to game soundtracks as regular music?&amp;rdquo; The content was too good too let die within the company, so here is a consolidated list of recommendations.
+ Fallout 1 and 2 Remixes Dune Spice Operat, strongly recommended Ben Prunty for FTL Ben Crossbones Dimaension X, Doom 2 remixes Doom 1 remixes Roland SC-55 remixes for various games Disasterpeace, the FEZ composer Mass Effect remixes Songs to test By, Portal 2 music Gustavo Santaolalla Swordcraft to Spacecraft, a Pandora station curated by a coworker Where to find video game music DJ Cutman GameChops  Other recommendations that are not easily downloadable are: Final Fantasy music, PPPPPPP the VVVVVV soundtrack, The Real Texas, Hotline Miami, SimCity 3000, Bit.</description>
+      
+    </item>
+    
+    <item>
+      <title>Shadow Warrior</title>
+      <link>/blog/shadow_warrior/</link>
+      <pubDate>Thu, 29 May 2014 14:18:00 -0400</pubDate>
+      
+      <guid>/blog/shadow_warrior/</guid>
+      <description>Remember this game where you played as Lo Wang? In 2013 a remake was released, and it is actually pretty good if you go in with the right expectations. It brings with it a passable story, pretty graphics, appropriate music, a solid (and simple) leveling system, and of course, his inappropriate swearing and leud jokes.
+&amp;ldquo;You mess with the bull, you get the Wang.&amp;rdquo; You magnificent fuck.
+About 15 hours of gameplay are available in this game, and all of it is entertaining.</description>
+      
+    </item>
+    
+    <item>
+      <title>Gin</title>
+      <link>/blog/gin/</link>
+      <pubDate>Thu, 29 May 2014 14:17:00 -0400</pubDate>
+      
+      <guid>/blog/gin/</guid>
+      <description>I like Gin, it&amp;rsquo;s my spirit of choice. Currently there are 7 different varieties in my cabinet.
+For mixers (a drink where you add a soda or juice) where I don&amp;rsquo;t need a high quality Gin, I usually go with Bombay Sapphire. It is a good quality Gin for sure, and in restaurants with a modest bar that&amp;rsquo;s what I&amp;rsquo;ll pick too.
+For cocktails, it depends on the style I&amp;rsquo;m going for; there are 2 categories of Gin to consider: American and London-dry.</description>
+      
+    </item>
+    
+    <item>
+      <title>Dark Souls 2</title>
+      <link>/blog/dark_souls_2/</link>
+      <pubDate>Sat, 05 Apr 2014 14:16:00 -0400</pubDate>
+      
+      <guid>/blog/dark_souls_2/</guid>
+      <description>This morning I reached Earthen Peak.
+I have been deliberately not reading major spoilers or walkthroughs for the game, so I have no idea how far along I am. I have 2 Big Souls (I forget what they&amp;rsquo;re really called) so far, one from The Lost Sinner, and one from The Rotten. I&amp;rsquo;m playing a lightly-equipped sword-and-shield character right now: no spells, heavy on the dexterity stat. I think I&amp;rsquo;m about Soul Level 80.</description>
+      
+    </item>
+    
+    <item>
+      <title>This and That</title>
+      <link>/blog/this_and_that/</link>
+      <pubDate>Sun, 16 Mar 2014 14:15:00 -0400</pubDate>
+      
+      <guid>/blog/this_and_that/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Big Space Port</title>
+      <link>/blog/big_space_port/</link>
+      <pubDate>Thu, 06 Feb 2014 14:15:00 -0400</pubDate>
+      
+      <guid>/blog/big_space_port/</guid>
+      <description>Remember those 4 doom levels I made years ago? Well, with Eureka, I touched those up and added 2 more. I renamed the collection Big Space Port, and it was successfully uploaded to the idgames archive.
+Maybe in the future I&amp;rsquo;ll continue the mapping, but for now, my bi-annual Doom phase is over. If you need an engine, I recommend Chocolate Doomfor that classic feel, or GZDoomfor a modern take with improved graphics and sound.</description>
+      
+    </item>
+    
+    <item>
+      <title>Hello From Brno, CZ</title>
+      <link>/blog/hello_from_brno_cz/</link>
+      <pubDate>Tue, 04 Feb 2014 14:13:00 -0400</pubDate>
+      
+      <guid>/blog/hello_from_brno_cz/</guid>
+      <description>I&amp;rsquo;m writing this message from Brno, a city in the Czech Republic! It began by flying into Amsterdam, picking up a connecting flight to Vienna in Austria, and then taking the Student Agency bus to Brno. From there I have been taking trams around the city to get around. I created a map to track places I&amp;rsquo;ve visited while I am out here. Last night I caught dinner with a local coworker (and another coworker from Chicago) at the Pegas Pub.</description>
+      
+    </item>
+    
+    <item>
+      <title>Rooted!</title>
+      <link>/blog/rooted/</link>
+      <pubDate>Tue, 21 Jan 2014 14:13:00 -0400</pubDate>
+      
+      <guid>/blog/rooted/</guid>
+      <description>Before Christmas Muffin and I gave each other Galaxy S4 mobile phones. It was time to upgrade. They were by Samsung, model SCH-I545, Android version 4.3 and a baseband version of VRUEMK2. Those bits of data are important for people who want to root the device using these instructions. The XDA forums are the place to go for this sort of information; they were shockingly easy this time around. Far easier than the Incredible.</description>
+      
+    </item>
+    
+    <item>
+      <title>TheDarkMod</title>
+      <link>/blog/thedarkmod/</link>
+      <pubDate>Sun, 19 Jan 2014 14:12:00 -0400</pubDate>
+      
+      <guid>/blog/thedarkmod/</guid>
+      <description>A new Thief comes out later in February, but there&amp;rsquo;s been a few red flags that have me suspicious. I&amp;rsquo;ll be watching it, but I&amp;rsquo;m waiting for reviews now instead of pre-ordering or purchasing the day-of. Check out the site and see if you come to the same conclusions.
+I&amp;rsquo;ve been playing TheDarkMod, a fan-made stand-alone game that behaves a lot like the older Thief games. It was originally a mod for the Doom 3 engine, but back in October it was re-released as a standalone program.</description>
+      
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>/blog/docker/</link>
+      <pubDate>Wed, 15 Jan 2014 14:12:00 -0400</pubDate>
+      
+      <guid>/blog/docker/</guid>
+      <description>Permit me to talk shop for a while. Docker is a project that makes an interesting use of Linux containers to package up applications and services. Containers in Linuxare an artificial way to create a space in which a process can run with limited resources exposed. You can create a container that has network access but only limited bandwidth, or can only occupy one core of your CPU. It&amp;rsquo;s a lightweight form of virtualization, but it&amp;rsquo;s not exactly the same thing.</description>
+      
+    </item>
+    
+    <item>
+      <title>Gus Greguske (2007-2014)</title>
+      <link>/blog/gus_greguske_2007-2014/</link>
+      <pubDate>Wed, 15 Jan 2014 14:11:00 -0400</pubDate>
+      
+      <guid>/blog/gus_greguske_2007-2014/</guid>
+      <description>Gus was our cat. Muffin made the difficult decision to have him put down a couple days ago after being diagnosed with diabetes a couple months ago. She picked him up from a shelter in Pennsylvania while in grad school, and his company helped keep her focused enough to obtain her PhD. His playful nature responded well to her bright and happy personality. I won&amp;rsquo;t forget the times when she would descend the stairs to the basement while with a book in one hand and Gus in the other, ready to park on the couch while I ganked and swore at people in Dark Souls.</description>
+      
+    </item>
+    
+    <item>
+      <title>Games in 2014</title>
+      <link>/blog/games_in_2014/</link>
+      <pubDate>Thu, 02 Jan 2014 14:10:00 -0400</pubDate>
+      
+      <guid>/blog/games_in_2014/</guid>
+      <description>Happy New Year everyone, the Year of Predictions is finally here. I made that title up.
+Have you been following video game releases for this year? I had not, until Rock, Paper, Shotgun posed a question to their community: what are you looking forward to this year? I cruised the comments and found a wealth of recommendations that were interesting at least. There were others that were either not the kind of thing I&amp;rsquo;m interested in, or the development progress was so vague I doubted it would see a 2014 release.</description>
+      
+    </item>
+    
+    <item>
+      <title>Eureka</title>
+      <link>/blog/eureka/</link>
+      <pubDate>Mon, 30 Dec 2013 14:08:00 -0400</pubDate>
+      
+      <guid>/blog/eureka/</guid>
+      <description>A few months ago a friend and I started talking about Doom, the classic game from the early 90s. Later that week I was over his house, where he was playing the game on his laptop. I go through this phase as well, every 2 years or so revisiting the game and playing a bunch of patch wads (custom maps) from the idgames archives.
+In the later stages of the phase I grab a doom map editor and work on one.</description>
+      
+    </item>
+    
+    <item>
+      <title>Basement</title>
+      <link>/blog/basement/</link>
+      <pubDate>Sun, 29 Sep 2013 14:07:00 -0400</pubDate>
+      
+      <guid>/blog/basement/</guid>
+      <description>My basement is almost finished, and if you&amp;rsquo;re cool enough to be on G+ you can see the pictures with the link.
+The project started in late April, and will be finished this week. It cost about $9,000 from start to finish. I hired contractors twice: once for mudding, and again for finishing the stairs. For muddling I just didn&amp;rsquo;t want to spend the time on it, and the carpentry work for the stairs (including the banister and laying the carpet down) was beyond my ability learn on the fly.</description>
+      
+    </item>
+    
+    <item>
+      <title>Fedora Badges</title>
+      <link>/blog/fedora_badges/</link>
+      <pubDate>Wed, 21 Aug 2013 14:06:00 -0400</pubDate>
+      
+      <guid>/blog/fedora_badges/</guid>
+      <description>Fedora contributors can now get badges (read: achievements) for doing things like submitting builds, code commits, wiki edits and a bunch of other things. My badge collection is pathetic.It turns out this has been effective in getting contributors to contribute harder. I cannot say for certain whether it entices new contributors.
+I can&amp;rsquo;t say I expected an achievement system for my professional life, but there it is. While I am a package maintainer, I only have 1, it rarely changes, and the user base is tiny; it is probably just me.</description>
+      
+    </item>
+    
+    <item>
+      <title>Compy Loyalty</title>
+      <link>/blog/compy_loyalty/</link>
+      <pubDate>Mon, 22 Jul 2013 14:06:00 -0400</pubDate>
+      
+      <guid>/blog/compy_loyalty/</guid>
+      <description>A podcast from a couple years ago prompted this question in my mind: Can you name 10 companies you would identify yourself as loyal to? Would you stick with them through the good times and the bad? Please omit the ones you work for since loyalty is implied there.
+I can easily come up with a list of companies I despise. Here&amp;rsquo;s those I like though, for now at least:</description>
+      
+    </item>
+    
+    <item>
+      <title>Anime Apnea</title>
+      <link>/blog/anime_apnea/</link>
+      <pubDate>Mon, 22 Jul 2013 14:05:00 -0400</pubDate>
+      
+      <guid>/blog/anime_apnea/</guid>
+      <description>The wife has the Netflix account and does way more viewing than I do. Recently a few anime series were recommended that we watched together. The first was Moribito: Guardian of the Spirit, and then came Black Butler. I won&amp;rsquo;t got into summaries here, you can use the links for that. Instead I&amp;rsquo;ll briefly explain what I liked and disliked.
+Moribito is the type of anime I like, the target audience is meant to be mature and it spends a fair amount of time exploring the world they created.</description>
+      
+    </item>
+    
+    <item>
+      <title>boot.fedoraproject.org</title>
+      <link>/blog/boot.fedoraproject.org/</link>
+      <pubDate>Thu, 06 Jun 2013 14:04:00 -0400</pubDate>
+      
+      <guid>/blog/boot.fedoraproject.org/</guid>
+      <description>A week ago I reinstalled my home desktop with Fedora 18, but this installation marks the first time I did without downloading any of the traditional installation media. No CD, DVD or ISO image. I started the process by downloading a 364k file.
+boot.fedoraproject.org (BFO) is a site designed to be booted from using iPXE, based on the work at boot.kernel.org (or BKO). I don&amp;rsquo;t really know what that means either but in short, the little file I downloaded contains just enough of an operating system to get you to a working network stack, which then is used to connect your system to BFO to download additional grub (which is a boot loader) information.</description>
+      
+    </item>
+    
+    <item>
+      <title>ACBF 2013</title>
+      <link>/blog/acbf_2013/</link>
+      <pubDate>Sun, 02 Jun 2013 14:03:00 -0400</pubDate>
+      
+      <guid>/blog/acbf_2013/</guid>
+      <description>Once again Muffin and I went to the American Craft Beer Festival in Boston. We went to it last year as well. For this post I&amp;rsquo;m just going to indicate what we&amp;rsquo;ve tasted so far, this includes both me and Muffin&amp;rsquo;s observations, taking an average if we both tried one. Last year&amp;rsquo;s post can be reviewed to understand what the event is like. Thankfully it was indoors, away from the 92 degree heat.</description>
+      
+    </item>
+    
+    <item>
+      <title>Bathtub Gin</title>
+      <link>/blog/bathtub_gin/</link>
+      <pubDate>Sun, 02 Jun 2013 14:03:00 -0400</pubDate>
+      
+      <guid>/blog/bathtub_gin/</guid>
+      <description>A few weeks ago I was in Seattle for work and met up with a past coworker for dinner. After that came drinks at a place he recommended: the Bathtub Gin Company. Imagine an alleyway with two red brick buildings on either side, and one of them has a huge black iron fire-escape. Now put brick walls in the alley in two places to seal away the fire escape and a little room.</description>
+      
+    </item>
+    
+    <item>
+      <title>Amon Tobin</title>
+      <link>/blog/amon_tobin/</link>
+      <pubDate>Sun, 02 Jun 2013 14:02:00 -0400</pubDate>
+      
+      <guid>/blog/amon_tobin/</guid>
+      <description>Friday night I was at the Paradise Rock Club in Boston to see Amon Tobin.
+The show was not at all what I expected, but I probably had the wrong expectation. We arrived when the doors opened to the venue at 8pm, but to our surprise, there was only about 20 people there. It definitely was the right time and place. The venue is small: barely more than a night club with a stage.</description>
+      
+    </item>
+    
+    <item>
+      <title>Where to Have Development Conversations</title>
+      <link>/blog/where_to_have_development_conversations/</link>
+      <pubDate>Mon, 06 May 2013 14:01:00 -0400</pubDate>
+      
+      <guid>/blog/where_to_have_development_conversations/</guid>
+      <description>This post is mine with my opinions. They are not Red Hat&amp;rsquo;s. It relates the decision by Anaconda to not hide the root password when you enter it with stars or &amp;ldquo;bullets&amp;rdquo;.
+It&amp;rsquo;s not uncommon to disagree with how a developer decides to add features or changes to their project. When that happens, most people have the decency to engage the developer(s) in a forum they are actively monitoring. They make their case engaging each other like adults, and come to some kind of resolution.</description>
+      
+    </item>
+    
+    <item>
+      <title>Office Survival Tips</title>
+      <link>/blog/office_survival_tips/</link>
+      <pubDate>Thu, 11 Apr 2013 14:00:00 -0400</pubDate>
+      
+      <guid>/blog/office_survival_tips/</guid>
+      <description>The last couple months I&amp;rsquo;ve been making a habit of going to the mini-gym in the office for 45 minutes or so before starting the work day. This is part of a broader effort to not be a just another flabby white software engineer. As a courtesy to my co-workers, I shower afterward and bring a change of clothes. Recently however, my perfect man-plan had a disastrous oversight.
+Working out went without a problem, the mirrors around the room stood and acknowledged my efforts and proclaimed the results to others.</description>
+      
+    </item>
+    
+    <item>
+      <title>How to Get Extreme</title>
+      <link>/blog/how_to_get_extreme/</link>
+      <pubDate>Fri, 15 Mar 2013 13:59:00 -0400</pubDate>
+      
+      <guid>/blog/how_to_get_extreme/</guid>
+      <description>With the new Pope getting chosen religion has been a popular topic around the folks I hang out with. Surrounded by engineers and software types it goes without saying that the majority of them are self proclaimed atheists or agnostics. Not all, but most. A small percentage of them though, I&amp;rsquo;d describe as hostile to religious types in general. Any mention of the term will bring up a diatribe about the crusades, genocides, and whatever else can be laid at the feet of those fighting for &amp;hellip; well whatever they thought was worth killing for.</description>
+      
+    </item>
+    
+    <item>
+      <title>FUDCon 2013</title>
+      <link>/blog/fudcon_2013/</link>
+      <pubDate>Tue, 22 Jan 2013 13:57:00 -0400</pubDate>
+      
+      <guid>/blog/fudcon_2013/</guid>
+      <description>Last week I was in Lawrence, Kansas attending the Fedora Users and Developers Conference and not enjoying Kansas BBQ because it was too far away from the city. However, the event itself was productive.
+Like all FUDCons, it was barcamp style talks. I&amp;rsquo;ll recap the ones I attended first:
+ Cloud Server Stacks for F19 Secure Boot Q and A Overhauling the Release Model Coprs Intro to the Installer  Secure Boot and the Installer did not reveal anything novel to me.</description>
+      
+    </item>
+    
+    <item>
+      <title>Steam on Fedora</title>
+      <link>/blog/steam_on_fedora/</link>
+      <pubDate>Tue, 08 Jan 2013 13:56:00 -0400</pubDate>
+      
+      <guid>/blog/steam_on_fedora/</guid>
+      <description>I&amp;rsquo;m a little late to the party but I got the Steam beta working on Fedora 17 with about 10 minutes of effort. I followed this guide. Currently Frozen Synapse, Amnesia and TF2 are available to play; I have not tried any yet since they need to be re-downloaded.
+Update: Amnesia seems to work fine!
+Very promising!</description>
+      
+    </item>
+    
+    <item>
+      <title>Guild Wars 2</title>
+      <link>/blog/guild_wars_2/</link>
+      <pubDate>Sun, 16 Dec 2012 13:56:00 -0400</pubDate>
+      
+      <guid>/blog/guild_wars_2/</guid>
+      <description>Lately my free time has been dominated by Guild Wars 2. It&amp;rsquo;s usually dominated by a video game of one form or another, but now it is an MMO, one I&amp;rsquo;ve been impressed with and would like to share.
+GW2 does a much better job keeping things casual and making it easy to continue playing with your friends. The auto-leveling mechanic in particular surprised me: if you are too high level for an area, your effective level (and gear) will be reduced so that the area is still a challenge.</description>
+      
+    </item>
+    
+    <item>
+      <title>AWS Re:Invent and DevOps</title>
+      <link>/blog/aws_reinvent_and_devops/</link>
+      <pubDate>Sat, 15 Dec 2012 13:55:00 -0400</pubDate>
+      
+      <guid>/blog/aws_reinvent_and_devops/</guid>
+      <description>2 weeks ago I was in Las Vegas attending AWS re:Invent. Amazon Web Services is the group responsible for EC2, S3, and other cloud-computing tech and services, they are a part of Amazon.com, the online retailer I&amp;rsquo;m sure you know. One interesting factoid they touted frequently was that every day, they add the same amount of hardware and infrastructure Amazon.com had in 2003 to their datacenters. This is the first re:Invent, and it had over 5,000 attendees.</description>
+      
+    </item>
+    
+    <item>
+      <title>Xenoblade Chronicles</title>
+      <link>/blog/xenoblade_chronicles/</link>
+      <pubDate>Sun, 11 Nov 2012 13:06:00 -0400</pubDate>
+      
+      <guid>/blog/xenoblade_chronicles/</guid>
+      <description>I picked this game up because I was curious about how the Japanese Role Playing Game (JRPG) genre has changed since I last played a game belonging to one. The last one I played I think is Final Fantasy 9. It&amp;rsquo;s been a while. I put in 150+ hours into this game.
+Xenoblade Chronicles (XC) squarely belongs in this genre, I don&amp;rsquo;t think anyone in their right mind would disagree with that.</description>
+      
+    </item>
+    
+    <item>
+      <title>Hoover Dam</title>
+      <link>/blog/hoover_dam/</link>
+      <pubDate>Sat, 15 Sep 2012 13:05:00 -0400</pubDate>
+      
+      <guid>/blog/hoover_dam/</guid>
+      <description>While DefCon was going on we made a side trip to tour the Hoover Dam. I finally got around to sharing the pictures, enjoy!</description>
+      
+    </item>
+    
+    <item>
+      <title>Selling Exploits</title>
+      <link>/blog/selling_exploits/</link>
+      <pubDate>Tue, 11 Sep 2012 13:05:00 -0400</pubDate>
+      
+      <guid>/blog/selling_exploits/</guid>
+      <description>ThreatPost has an interesting pocast that features Chris Soghoian talking about the sale of software exploits. This has been going on for years, but it&amp;rsquo;s growing into more of an &amp;ldquo;open secret&amp;rdquo;, according to him. They know what they&amp;rsquo;re doing and are ok with having invite-only parties at public events like DefCon or BlackHat.
+The SciFi-Cyberpunk nerd in me thinks it is awesome that this is a thing that exists in our world.</description>
+      
+    </item>
+    
+    <item>
+      <title>Half-Life Throwback</title>
+      <link>/blog/half-life_throwback/</link>
+      <pubDate>Mon, 03 Sep 2012 13:04:00 -0400</pubDate>
+      
+      <guid>/blog/half-life_throwback/</guid>
+      <description>Sans-Serif just got a new computer, and I spent Labor Day playing Half Life 2 mods, so I figured a post about the best of them was in order.
+The first one I cannot recommend enough is Mission Improbable. It&amp;rsquo;s a few hours long, looks fantastic, and easily mistaken for a professional project; it requires Episode 2.
+The second was Minerva: Metastasis(see link at the bottom) which was also great, but had a few glitches to note: the waves surrounding the island were a little &amp;ldquo;off&amp;rdquo;, and I had a few crashes in the second half of the first chapter.</description>
+      
+    </item>
+    
+    <item>
+      <title>12 Tops</title>
+      <link>/blog/12_tops/</link>
+      <pubDate>Sun, 26 Aug 2012 13:03:00 -0400</pubDate>
+      
+      <guid>/blog/12_tops/</guid>
+      <description>The 12 Tops Encyclopedia is back up, now running on OpenShift. For now, OpenShift is free, and there will always be a free tier, but eventually heavy users of the service will be charged. I don&amp;rsquo;t expect that to be us. I plan to move Prithivaand the main Brolem site there too.
+Here&amp;rsquo;s how I completed the migration. If you want your own hosted MediaWiki (or whatever else), give OpenShift a try.</description>
+      
+    </item>
+    
+    <item>
+      <title>Clouds</title>
+      <link>/blog/clouds/</link>
+      <pubDate>Sat, 25 Aug 2012 13:02:00 -0400</pubDate>
+      
+      <guid>/blog/clouds/</guid>
+      <description>While I&amp;rsquo;m sure everyone here is aware of &amp;ldquo;Cloud&amp;rdquo; being used to describe online services, or rebrand existing products, not all of it is marketing fluff. There still is a lot of ambiguity, and a few companies set out to define the term themselves rather than repeat the same blather. Three service models have arrived from those efforts which I will attempt to explain here. Wikipedia predictably has a good article on the subject too, but it is laden with computer jargon that may be difficult for non-technical people to parse&amp;hellip; err&amp;hellip; understand.</description>
+      
+    </item>
+    
+    <item>
+      <title>Vegas Vacation</title>
+      <link>/blog/vegas_vacation/</link>
+      <pubDate>Tue, 31 Jul 2012 13:02:00 -0400</pubDate>
+      
+      <guid>/blog/vegas_vacation/</guid>
+      <description>The last 5 days I have been in Las Vegas, and it is good to be home again. Originally the plan was David Cantrelland I would attend DefCon 20together, but then our wives wanted to come, and naturally Chris Lumensand his wife found good reasons to be there too: hiking in the mountains. DefCon only lasted 3 days, but we made a group vacation out of it by adding a couple more.</description>
+      
+    </item>
+    
+    <item>
+      <title>Dungeon: The Odious Ossuary</title>
+      <link>/blog/dungeon_the_odious_ossuary/</link>
+      <pubDate>Mon, 16 Jul 2012 13:01:00 -0400</pubDate>
+      
+      <guid>/blog/dungeon_the_odious_ossuary/</guid>
+      <description>Recently the players of 3.5 edition D&amp;amp;D campaign setting completed an extensive dungeon. I cannot say is is the largest one I have done, but it certainly ranks up there. It took 4 sessions to complete (2 of them were only 3 hours long) and is meant for a group of 5-6 5th level players.
+The background is archived here. As a stand-alone module, the key mechanic are the Vengeful Encounters, certain triggers will start one.</description>
+      
+    </item>
+    
+    <item>
+      <title>Diablo 3</title>
+      <link>/blog/diablo_3/</link>
+      <pubDate>Sat, 09 Jun 2012 12:59:00 -0400</pubDate>
+      
+      <guid>/blog/diablo_3/</guid>
+      <description>There&amp;rsquo;s not much I can say about Diablo 3 that has not already been said. I recognize that the game already sold a bazillion copies, and there&amp;rsquo;s little gamers can do to change the direction of the industries momentum into a connected, always-online model.
+For me personally though, the sense of possession some people have on software still feels misguided. Perhaps my employment with a company that professionally involves developing software you can get for free has something to do with it.</description>
+      
+    </item>
+    
+    <item>
+      <title>American Craft Beer Fest</title>
+      <link>/blog/american_craft_beer_fest/</link>
+      <pubDate>Tue, 05 Jun 2012 12:59:00 -0400</pubDate>
+      
+      <guid>/blog/american_craft_beer_fest/</guid>
+      <description>Saturday I attended the ACBF, which was a great time. It was sort of a triple-date thing with 2 coworkers and their wives going as well. Between the three of us, we sampled about 10% of the beers available and 33% of the Brewers attending. A paltry ratio to be sure but you can only drink so much within a 4 hour period before getting ejected for obnoxious behavior. Each sample was a 2oz pour, which means by sample #38 I was getting myself in trouble.</description>
+      
+    </item>
+    
+    <item>
+      <title>Fez</title>
+      <link>/blog/fez/</link>
+      <pubDate>Tue, 08 May 2012 12:58:00 -0400</pubDate>
+      
+      <guid>/blog/fez/</guid>
+      <description>Yes, that is the name, like the hat. I finished this game (full complete) about an hour ago.
+Fez is an XBLA-only title that focuses puzzles and exploration above everything else. The core mechanic is exploiting your perspective of an apparently 2D world to make matter in 3D space line up the way you want, similar to Paper Mario or Echochrome. This gameplay video can do a far better job explaining than I can.</description>
+      
+    </item>
+    
+    <item>
+      <title>Mounted TV</title>
+      <link>/blog/mounted_tv/</link>
+      <pubDate>Thu, 08 Mar 2012 12:56:00 -0400</pubDate>
+      
+      <guid>/blog/mounted_tv/</guid>
+      <description>The first home-improvement project we had turned into a lengthy and rewarding father-son project. The goal was to mount our 42&amp;rdquo; plasma above the fireplace; no wires showing afterward either. As you can see in the picture on the left, we were successful. Here is how that effort went.
+Not long into our effort did we discover a critical problem. Above the fireplace there were no studs, just a trio of 2x8&amp;rsquo;s that were rotated 90 degrees; e.</description>
+      
+    </item>
+    
+    <item>
+      <title>House Wireless</title>
+      <link>/blog/house_wireless/</link>
+      <pubDate>Tue, 28 Feb 2012 12:55:00 -0400</pubDate>
+      
+      <guid>/blog/house_wireless/</guid>
+      <description>With a new house comes a new wireless network. We&amp;rsquo;ve been frustrated with the Linksys WRT160N v2 we bought off the shelf at Best Buy. Once or twice every month Muffin would have to reset it to connect to the wireless (I blame Vista) and you could not install any custom firmware on it.
+This time I did far more research, and landed with an Asus NT-16. I had been looking to find a router that fully supported TomatoUSB, open source router firmware that was recommended by a few coworkers.</description>
+      
+    </item>
+    
+    <item>
+      <title>Circuit Breakers</title>
+      <link>/blog/circuit_breakers/</link>
+      <pubDate>Wed, 22 Feb 2012 12:54:00 -0400</pubDate>
+      
+      <guid>/blog/circuit_breakers/</guid>
+      <description>The first major home improvement I&amp;rsquo;ve been up to lately is mounting the TV in the living room above the fireplace. That project is complete and I&amp;rsquo;ll cover that in a future post, but one side quest that came up was adding another circuit to the circuit breaker so we could power it and add an outlet to the living room. This was enough of a side project that I felt it needed a separate post.</description>
+      
+    </item>
+    
+    <item>
+      <title>Zelda: Skyward Sword and Nintendo</title>
+      <link>/blog/zelda_skyward_sword_and_nintendo/</link>
+      <pubDate>Tue, 21 Feb 2012 12:53:00 -0400</pubDate>
+      
+      <guid>/blog/zelda_skyward_sword_and_nintendo/</guid>
+      <description>This post contains a few spoilers.
+I finished The Legend of Zelda: Skyward Sword yesterday evening. For once I nabbed all pieces of heart too.
+The game is its usual charming self with bright colors and happy, aloof characters. It certainly still feels like a Zelda game, though it has the Windwakersort of overworld: instead of getting bored sailing around the ocean, you get bored flying around the sky. There are plenty of side quests to get better quivers, wallets, bomb bags, or pieces of heart; there&amp;rsquo;s plenty to do, though not in the way of dungeons.</description>
+      
+    </item>
+    
+    <item>
+      <title>Follow Me on Pandora</title>
+      <link>/blog/follow_me_on_pandora/</link>
+      <pubDate>Sun, 22 Jan 2012 12:52:00 -0400</pubDate>
+      
+      <guid>/blog/follow_me_on_pandora/</guid>
+      <description>I wasn&amp;rsquo;t aware of the extent of Pandora Radio had developed the social media part of their website until recently. Yesterday the Wife and I caught dinner at Teatrobefore catching a show in Boston, and they had a badass selection of chill break-beat pieces playing in the dining hall. I asked the hostess what was playing, and she replied they had found a Pandora station called &amp;ldquo;The Dining Rooms&amp;rdquo;.
+Turns out The Dining Rooms is an artist, and a user had seeded their station with that artist and been sharing it.</description>
+      
+    </item>
+    
+    <item>
+      <title>FUDCon 2012</title>
+      <link>/blog/fudcon_2012/</link>
+      <pubDate>Sun, 15 Jan 2012 12:51:00 -0400</pubDate>
+      
+      <guid>/blog/fudcon_2012/</guid>
+      <description>In a couple hours I&amp;rsquo;ll be boarding flight 3959 to Charlotte from Roanoak, VA, and then flying to Manchester, NH from there. I spent this weekend and Friday at my second Fedora Users and Developers Conference. This year it was hosted at Virginia Tech in Blacksburg.
+Friday was pretty informal; I poked my head into several classrooms reserved for FUDCon and looked around to see if I knew anyone. I caught up with a couple folks that work on Anaconda, OpenShift, Pulp, Aeolus, Katelloand others that I&amp;rsquo;m sure I&amp;rsquo;m forgetting.</description>
+      
+    </item>
+    
+    <item>
+      <title>Achievement Unlocked: Homeowner</title>
+      <link>/blog/achievement_unlocked_homeowner/</link>
+      <pubDate>Sat, 31 Dec 2011 12:51:00 -0400</pubDate>
+      
+      <guid>/blog/achievement_unlocked_homeowner/</guid>
+      <description>Yesterday we successfully closed on a house in NH. Now we begin the lengthy task of painting and decorating the thing. Afterward I discovered we live down the street from the chief of police, so there goes my hobby of building cannons for everyday objects like potatoes or soda cans. :(
+Also, happy new year.</description>
+      
+    </item>
+    
+    <item>
+      <title>Headphone Repair</title>
+      <link>/blog/headphone_repair/</link>
+      <pubDate>Sun, 11 Dec 2011 12:49:00 -0400</pubDate>
+      
+      <guid>/blog/headphone_repair/</guid>
+      <description>I own a set of Bose headphones that I&amp;rsquo;ve had for about 3 to 4 years. At the time of purchase it was $160, and the current model available today is the AE2 They get my recommendation.
+Unless you&amp;rsquo;ve been giving them a hard life. I frequently brought them back and forth from home to work so I could listen to music, and the strain had finally worn through one of the wires near the connection in the left headphone.</description>
+      
+    </item>
+    
+    <item>
+      <title>9 Things I Wish the Elder Scrolls Would Fix</title>
+      <link>/blog/9_things_i_wish_the_elder_scrolls_would_fix/</link>
+      <pubDate>Sun, 04 Dec 2011 12:48:00 -0400</pubDate>
+      
+      <guid>/blog/9_things_i_wish_the_elder_scrolls_would_fix/</guid>
+      <description>There are 5 Elder Scrolls games: Arena, Daggerfall, Morrowind, Oblivion and most recently, Skyrim. While all decent games, there are some behaviors that just never seem to get get fixed: they afflict at least 3 of the 5 games. Here they are in no particular order.
+Waterfalls do not sound like garden hoses draining from your rooftop.It is painfully obvious sometimes that Bethesda&amp;rsquo;s Audio guys have never been to a real waterfall.</description>
+      
+    </item>
+    
+    <item>
+      <title>Dark Souls</title>
+      <link>/blog/dark_souls/</link>
+      <pubDate>Sat, 15 Oct 2011 12:47:00 -0400</pubDate>
+      
+      <guid>/blog/dark_souls/</guid>
+      <description>Dark Souls is the successor to Demons&amp;rsquo; Souls, not in the sense of a sequel though, just heavily inspired. Both of these games were well-received for their depth and difficulty.
+The difficulty is the most well known characteristic of the game though. You cannot button-mash this game; it will punish you severely for it. There is no compass, no map, and a very sparse explanation of how things work. Every enemy in this game, even the lowly ones you encounter at the beginning, can and will remove large amounts of your health if you&amp;rsquo;re not careful.</description>
+      
+    </item>
+    
+    <item>
+      <title>Yum Repository</title>
+      <link>/blog/yum_repository/</link>
+      <pubDate>Sun, 02 Oct 2011 12:46:00 -0400</pubDate>
+      
+      <guid>/blog/yum_repository/</guid>
+      <description>For my non-work side projects I find myself packaging software for Fedora from time to time. I created a yum repository for those packages over here. So far it doesn&amp;rsquo;t contain anything I want to brag about, just dependencies for projects I&amp;rsquo;m getting involved with. I&amp;rsquo;ll post more about those when I reach some kind of appreciable goal. MetaRPG might end up in there some day too.
+For the Fedora-novice, take that text file and save it in /etc/yum.</description>
+      
+    </item>
+    
+    <item>
+      <title>InMotion Hacked</title>
+      <link>/blog/inmotion_hacked/</link>
+      <pubDate>Sun, 25 Sep 2011 12:44:00 -0400</pubDate>
+      
+      <guid>/blog/inmotion_hacked/</guid>
+      <description>About half an hour ago, Sans sent me a text saying I should check my brolem site and that I made a friend. Indeed I did, what I saw is the pic on the right.
+More details on the hack are here, which I found with a google search of Tiger-Mate. InMotion is the hosting provider for Brolem.net, and multiple accounts were defaced, not just ours. The &amp;ldquo;payload&amp;rdquo; of the attack, and I confirmed this with InMotion support, is to drop an index.</description>
+      
+    </item>
+    
+    <item>
+      <title>Hacking Articles and Presentations</title>
+      <link>/blog/hacking_articles_and_presentations/</link>
+      <pubDate>Tue, 30 Aug 2011 12:40:00 -0400</pubDate>
+      
+      <guid>/blog/hacking_articles_and_presentations/</guid>
+      <description>I scraped a complete set of issues from Phrack Magazine. You can always peruse them on their site too, but in case it ever goes down, we have our own copies. If you want to be a l337 hax0r from when the sc3n3 was hip, read a few articles.
+For more modern and practical hacking, I grabbed all non-video presentations from Defcon 10-19. The conventions before that are mostly video recordings with poor sound.</description>
+      
+    </item>
+    
+    <item>
+      <title>Google Hacking</title>
+      <link>/blog/google_hacking/</link>
+      <pubDate>Thu, 11 Aug 2011 12:39:00 -0400</pubDate>
+      
+      <guid>/blog/google_hacking/</guid>
+      <description>Weeks ago I downloaded a Google+ app for my phone. While it is a convenient means to stay abreast of what folks are posting in my circles, there is one glaring &amp;ldquo;feature&amp;rdquo; I detest: if you enable location services (GPS, and Google/Verizon), the app will show you people near your location that also have G+ profiles. You can add nearby folks to your circles using this information.
+I keep location services off because, as an Android phone, I have about 14 seconds of battery life, and enabling the GPS exacerbates the problem.</description>
+      
+    </item>
+    
+    <item>
+      <title>Mini-vacation</title>
+      <link>/blog/mini-vacation/</link>
+      <pubDate>Mon, 25 Jul 2011 12:30:00 -0400</pubDate>
+      
+      <guid>/blog/mini-vacation/</guid>
+      <description>ast weekend the wife and I spent a weekend in Tannersville, NY with my Dad&amp;rsquo;s growing family. The pictures are here, and there are 3 videos of us on a zipline tour down Hunter&amp;rsquo;s Mountain</description>
+      
+    </item>
+    
+    <item>
+      <title>Top 5 Beers</title>
+      <link>/blog/top_5_beers/</link>
+      <pubDate>Thu, 21 Jul 2011 12:29:00 -0400</pubDate>
+      
+      <guid>/blog/top_5_beers/</guid>
+      <description>Some of you may be familiar with this site already, but for those who are not, I&amp;rsquo;d like to show you BeerAdvocate, a beer rating site. Their database is considerably large, so you can usually find what you&amp;rsquo;re looking for. The Education section is particularly good to help people &amp;ldquo;mature&amp;rdquo; into craft beers when you&amp;rsquo;ve had enough Miller Time.
+That all said, here are my top 5 beers today. It depends on what I&amp;rsquo;m eating it with to say which I&amp;rsquo;ll pick; there is no order here.</description>
+      
+    </item>
+    
+    <item>
+      <title>Google&#43;</title>
+      <link>/blog/google&#43;/</link>
+      <pubDate>Wed, 13 Jul 2011 12:28:00 -0400</pubDate>
+      
+      <guid>/blog/google&#43;/</guid>
+      <description>I accepted an invite to G+ today. We&amp;rsquo;ll see if I regret this later.
+So far it seems like something I can get into casually. Sparks are not very useful yet though, they appear to be stylized google searches of stuff you like. If I could integrate RSS feeds or something into my &amp;ldquo;stream&amp;rdquo; that&amp;rsquo;d be much more useful.
+Let me know if any of you want an invite.</description>
+      
+    </item>
+    
+    <item>
+      <title>Desktop Configuration</title>
+      <link>/blog/desktop_configuration/</link>
+      <pubDate>Sun, 12 Jun 2011 12:27:00 -0400</pubDate>
+      
+      <guid>/blog/desktop_configuration/</guid>
+      <description>I just installed Fedora 15 with Gnome Shell. While it does function and I can do the basics of what I like, there is still quite a bit to go with respect to configuration, preferences, and optimization. This post is meant to be a reminder for me when I reinstall next year, and a reference for anyone else doing an installation themselves. Sound and video
+Enable RPMFusion
+ # yum localinstall --nogpgcheck http://download1.</description>
+      
+    </item>
+    
+    <item>
+      <title>The Deep End</title>
+      <link>/blog/the_deep_end/</link>
+      <pubDate>Tue, 31 May 2011 12:19:00 -0400</pubDate>
+      
+      <guid>/blog/the_deep_end/</guid>
+      <description>I spent much of my 3 day weekend investigating a network traffic dump from a system that got infected with malware. It comes from challenge #6 on Honeynet.org, an interesting site that if you&amp;rsquo;ve got time and persistence, you can really teach yourself a lot about computer security and attacks.
+What you start with is a pcap file, which is a file format that contains network traffic dumps (collections of packets) that can be read by traffic analysis programs.</description>
+      
+    </item>
+    
+    <item>
+      <title>Fedora 15</title>
+      <link>/blog/fedora_15/</link>
+      <pubDate>Tue, 24 May 2011 12:17:00 -0400</pubDate>
+      
+      <guid>/blog/fedora_15/</guid>
+      <description>ust an FYI that Fedora 15 has been released. The feature list is here. The interesting features for me are systemd and Gnome 3. I may update this weekend on the laptop</description>
+      
+    </item>
+    
+    <item>
+      <title>Freelancer</title>
+      <link>/blog/freelancer/</link>
+      <pubDate>Tue, 17 May 2011 12:16:00 -0400</pubDate>
+      
+      <guid>/blog/freelancer/</guid>
+      <description>Sans&amp;rsquo; mention of a Freelancer emulator on Linux (which I could not find) motivated me to setting up a Freelancer server. On Windows 7 after quite a bit of mod/patch downloads, I was able to set up a server and connect to it myself. The procedure I followed was:
+ Install Freelancer Download and install the 1.1 patch by running the executable (Optional) Download the no-CD &amp;ldquo;patch&amp;rdquo; and overwriting the Freelancer EXE file Download and install the Freelancer Mod Manager (FLMM) by running the executable.</description>
+      
+    </item>
+    
+    <item>
+      <title>Boolean Mechanics in Games</title>
+      <link>/blog/boolean_mechanics_in_games/</link>
+      <pubDate>Sun, 08 May 2011 12:15:00 -0400</pubDate>
+      
+      <guid>/blog/boolean_mechanics_in_games/</guid>
+      <description>In the original Fallout games there were a handful of skills you could use as a player that produced a pass or fail result; you either succeeded or you did not. An example would be using your Science skill to hack a computer. If you successfully made whatever the roll was, you would hack it, and something would happen. If you failed, nothing would happen. Lockpicking is another example. At times there were critical failures, but for the sake of argument I&amp;rsquo;m going to ignore those because all they meant was you could not try again for a long period of time.</description>
+      
+    </item>
+    
+    <item>
+      <title>Koji</title>
+      <link>/blog/koji/</link>
+      <pubDate>Wed, 04 May 2011 12:14:00 -0400</pubDate>
+      
+      <guid>/blog/koji/</guid>
+      <description>One of my job functions at work is to maintain and extend our build system. This affords us a couple benefits: one central location to find package and product builds (which is good when multiple teams need to work together for integration tasks), and a repeatable workflow that product groups are familiar with across the company.
+Internally, we developed a system that served well for a couple years. After a lot of debate with a few executives, we eventually open sourced this system, calling it Koji.</description>
+      
+    </item>
+    
+    <item>
+      <title>Goodbye AIM</title>
+      <link>/blog/goodbye_aim/</link>
+      <pubDate>Sat, 16 Apr 2011 12:13:00 -0400</pubDate>
+      
+      <guid>/blog/goodbye_aim/</guid>
+      <description>I&amp;rsquo;ve decided to discontinue use of &amp;ldquo;Elder Illithid&amp;rdquo; today. After reviewing my buddy list, everyone on it that I&amp;rsquo;m still interested in talking to has an alternate means of reaching me. I&amp;rsquo;ve used this account since 9th grade.
+Most friends and family reach me on gchat, which is preferred. You can find me on freenode IRC as well as jgreguske (which is registered) or zyzyx (which is not).</description>
+      
+    </item>
+    
+    <item>
+      <title>Crysis 2</title>
+      <link>/blog/crysis_2/</link>
+      <pubDate>Sat, 16 Apr 2011 12:06:00 -0400</pubDate>
+      
+      <guid>/blog/crysis_2/</guid>
+      <description>Last night I finished Crysis 2, the prettiest game to date. I will not spend more than 2 sentences prattling on about the graphics, but I must say that this game looks better and runs better than games that look worse; Crytek knows out optimize rendering code.
+You play a guy in a high tech suit that has super powers: Predator-style stealth, super strength, infra-red vision and armor to stop bullets.</description>
+      
+    </item>
+    
+    <item>
+      <title>MetaRPG 0.3.0</title>
+      <link>/blog/metarpg_0.3.0/</link>
+      <pubDate>Sat, 16 Apr 2011 12:06:00 -0400</pubDate>
+      
+      <guid>/blog/metarpg_0.3.0/</guid>
+      <description>I&amp;rsquo;ve been putting off the Windows port for quite a while, and the reason is because I&amp;rsquo;ve been watching two technologies grow before pursuing one.
+The first is PyGObject, which is a feature of GNOME 3. If I go this route, MetaRPG should be Python and PyGTK-agnostic, meaning you can install any modern versions of these dependencies and it should work just fine. The MetaRPG user experience would not change much; it would make bundling Python and PyGTK with MetaRPG easier though, and it makes development easier in the future.</description>
+      
+    </item>
+    
+    <item>
+      <title>Iain M. Banks</title>
+      <link>/blog/iain_m._banks/</link>
+      <pubDate>Fri, 01 Apr 2011 12:03:00 -0400</pubDate>
+      
+      <guid>/blog/iain_m._banks/</guid>
+      <description>Lately I have been reading books by this author; the setting he is most known for is the Culture. It is as Sci-Fi as it gets. In this post I will be intentionally be vague so I don&amp;rsquo;t give too much away. It is important to understand that you don&amp;rsquo;t learn everything you need to know about the Culture in the first book, you learn a little more with each one.</description>
+      
+    </item>
+    
+    <item>
+      <title>RHCE</title>
+      <link>/blog/rhce/</link>
+      <pubDate>Sat, 12 Mar 2011 12:02:00 -0400</pubDate>
+      
+      <guid>/blog/rhce/</guid>
+      <description>As of Friday I am now a Red Hat Certified Engineer for Red Hat Enterprise Linux 6. Yay!</description>
+      
+    </item>
+    
+    <item>
+      <title>Mobile Devices and Site Design</title>
+      <link>/blog/mobile_devices_and_site_design/</link>
+      <pubDate>Thu, 10 Mar 2011 12:01:00 -0400</pubDate>
+      
+      <guid>/blog/mobile_devices_and_site_design/</guid>
+      <description>I&amp;rsquo;ve noticed something about game-related websites lately: the trend of making the site more friendly to mobile device browsers at the expense of traditional computers. I don&amp;rsquo;t begrudge device owners; I browse on my phone too when I really need to, but I don&amp;rsquo;t own an iPad. It is not, nor will it be for a long time, a practical use of my time. I have no problem if you own one to play Angry Birds.</description>
+      
+    </item>
+    
+    <item>
+      <title>Minecraft</title>
+      <link>/blog/minecraft/</link>
+      <pubDate>Sat, 26 Feb 2011 11:57:00 -0400</pubDate>
+      
+      <guid>/blog/minecraft/</guid>
+      <description>I just got out of a mixology class where I&amp;rsquo;ve been drinking mixed drinks for 3 hours.
+Minecraft touches me in ways I had forgotten about. You punch/mine blocks of resources, then pick them up or craft them into new objects and place them in a game world. The emphasis is on exploration and creativity; you collect resources and use them to build whatever you want. The charming (crappy) graphics and &amp;ldquo;physics&amp;rdquo; actually make for a rather intuitive experience.</description>
+      
+    </item>
+    
+    <item>
+      <title>FUDCon 2011</title>
+      <link>/blog/fudcon_2011/</link>
+      <pubDate>Sun, 20 Feb 2011 11:56:00 -0400</pubDate>
+      
+      <guid>/blog/fudcon_2011/</guid>
+      <description>A few weeks ago I attended FUDCon, the Fedora Users and Developers Conference. This year it took place in Tempe, Arizona at the Arizona State University.
+At Red Hat my primary job function is to be the Release Engineer for the company&amp;rsquo;s Cloud and Virtualization products and efforts. The Red Hat Enterprise Linux images in Amazon&amp;rsquo;s EC2 were built by me using tools I wrote internally. Much of the work I&amp;rsquo;ve done has been made public and available to the Fedora community, but there is still a lot of work to do: the work to integrate my tools with Fedora&amp;rsquo;s infrastructure and release process is still on going.</description>
+      
+    </item>
+    
+    <item>
+      <title>Droid Tethering</title>
+      <link>/blog/droid_tethering/</link>
+      <pubDate>Sun, 23 Jan 2011 11:54:00 -0400</pubDate>
+      
+      <guid>/blog/droid_tethering/</guid>
+      <description>This weekend Muffin and I moved to our new apartment. We just finished unpacking the bedroom accessories and living room. Unfortunately, we won&amp;rsquo;t have an internet connection until Friday. This makes my evenings very boring.
+Usually, this is the time to hijack a neighbor&amp;rsquo;s unsecured wireless network, but when it comes to working from home or doing a little online banking, I&amp;rsquo;m not really comfortable using someone else&amp;rsquo;s connection. It could turn out they&amp;rsquo;d be someone like me.</description>
+      
+    </item>
+    
+    <item>
+      <title>Droid Incredible Rooted</title>
+      <link>/blog/droid_incredible_rooted/</link>
+      <pubDate>Tue, 18 Jan 2011 11:54:00 -0400</pubDate>
+      
+      <guid>/blog/droid_incredible_rooted/</guid>
+      <description>While the Droid Incredible does a lot of cool things and lots of nifty apps exist for it, the one thing it can&amp;rsquo;t do out of the box is remove pre-installed crap courtesy of the carrier. This included integration with Facebook, Twitter, Flickr, and Verizon&amp;rsquo;s own implementations for map navigation and video/picture sharing suites. After 2 days of use, I couldn&amp;rsquo;t take having the bloat anymore.
+I followed this guide. For the most part it worked as described, however there are a few addendums I will point out here.</description>
+      
+    </item>
+    
+    <item>
+      <title>MetaRPG 0.2 Released</title>
+      <link>/blog/metarpg_0.2_released/</link>
+      <pubDate>Fri, 31 Dec 2010 11:53:00 -0400</pubDate>
+      
+      <guid>/blog/metarpg_0.2_released/</guid>
+      <description>MetaRPG 0.2.0 has been released; what the new version brings is listed here.
+You can also see what I have planned for 0.3.0.</description>
+      
+    </item>
+    
+    <item>
+      <title>Brute Forcing AI</title>
+      <link>/blog/brute_forcing_ai/</link>
+      <pubDate>Thu, 30 Dec 2010 11:49:00 -0400</pubDate>
+      
+      <guid>/blog/brute_forcing_ai/</guid>
+      <description>Similar to cracking passwords, computers can brute-force solve single-player puzzles too, as long as the following criteria is met:
+ The puzzle has a well defined start state. There are 1 or more states where the game is said to be won. There is a finite number of moves a player can make.  During the flights to and from St. Louis to visit Muffin&amp;rsquo;s family, I occupied my time putting this hypothesis to the test with Sudoku.</description>
+      
+    </item>
+    
+    <item>
+      <title>The Bookstore</title>
+      <link>/blog/the_bookstore/</link>
+      <pubDate>Sun, 26 Dec 2010 11:48:00 -0400</pubDate>
+      
+      <guid>/blog/the_bookstore/</guid>
+      <description>Days before Thanksgiving I visited Lute and his girlfriend at their place in PA. One evening we picked up drinks at a place called The Bookstore. At the time they were having a Thanksgiving-eve special with a unique menu and discounts. The place is a 20&amp;rsquo;s themed speakeasy, and they take the theme seriously:
+ Except for 4 or so electric lamps, the entire place is lit by candles and kerosene lamps.</description>
+      
+    </item>
+    
+    <item>
+      <title>Fedora 14</title>
+      <link>/blog/fedora_14/</link>
+      <pubDate>Tue, 02 Nov 2010 11:47:00 -0400</pubDate>
+      
+      <guid>/blog/fedora_14/</guid>
+      <description>ust a quick note that Fedora 14 has been released. The main website has gotten a new look as well that should be more useful to beginners. The feature list is targeted mostly at developers and virt-admins this time around, less about the desktop itself</description>
+      
+    </item>
+    
+    <item>
+      <title>Hardware Hell</title>
+      <link>/blog/hardware_hell/</link>
+      <pubDate>Sun, 31 Oct 2010 11:46:00 -0400</pubDate>
+      
+      <guid>/blog/hardware_hell/</guid>
+      <description>My dubiously functioning hardware gave me a scare this afternoon as I tried to install 4 more gigabytes of RAM.
+Presently it only has 2G, so I figured it was time for an upgrade to 6G before installing Win 7. Once I installed the pair of 2G sticks however, all was not well. Powering the computer on would lead to one of two results, I could not discern a pattern: never display anything or beep, or print out the the following to the console:</description>
+      
+    </item>
+    
+    <item>
+      <title>Dirty Coding</title>
+      <link>/blog/dirty_coding/</link>
+      <pubDate>Sat, 23 Oct 2010 11:44:00 -0400</pubDate>
+      
+      <guid>/blog/dirty_coding/</guid>
+      <description>Recently I came into possession of the sources for Agobot3, the parent of many modern worms that join grandma&amp;rsquo;s computer to botnets. I&amp;rsquo;ve been studying the code a bit and found a couple blocks I found rather interesting.
+Notably, Agobot3 has code in it to detect if it is being run in a debugger. This is specifically to make reverse engineering it harder for the security community. Now that the sources are out it&amp;rsquo;s rather moot, but still worth walking through for the sake of learning.</description>
+      
+    </item>
+    
+    <item>
+      <title>Horror Mechanics in Amnesia: TDD</title>
+      <link>/blog/horror_mechanics_in_amnesia_tdd/</link>
+      <pubDate>Mon, 18 Oct 2010 11:42:00 -0400</pubDate>
+      
+      <guid>/blog/horror_mechanics_in_amnesia_tdd/</guid>
+      <description>A few weeks ago I completed Amnesia: The Dark Descent, a survival horror game that does an excellent job with the horror part. This will be an incomplete review, focusing specifically on the game mechanics that make it work. Frankly I&amp;rsquo;m surprised more games are not like this one, which I do recommend strongly by the way.
+First of all, the game is well paced and makes impressive use of sound, light, and atmosphere.</description>
+      
+    </item>
+    
+    <item>
+      <title>The Witcher</title>
+      <link>/blog/the_witcher/</link>
+      <pubDate>Mon, 18 Oct 2010 11:41:00 -0400</pubDate>
+      
+      <guid>/blog/the_witcher/</guid>
+      <description>Yesterday I finished The Witcher, a lengthy and largely successful RPG. As far as modern RPGs go, this one delivers well: you develop some interest in the characters, the setting, and the plot. There is a lot to like about this game, and some to dislike. I&amp;rsquo;ll begin with what detracted from the experience for me, since according to some, finishing a criticism favorably more likely convinces an audience that the review was favorable.</description>
+      
+    </item>
+    
+    <item>
+      <title>Bioshock: Infinite</title>
+      <link>/blog/bioshock_infinite/</link>
+      <pubDate>Wed, 22 Sep 2010 11:40:00 -0400</pubDate>
+      
+      <guid>/blog/bioshock_infinite/</guid>
+      <description>Mogg recently brought my attention to Bioshock Infinite, a game I have a skeptical view of. Before continuing with this post, I highly recommend you read an interview with Ken Levine and one with Timothy Gerritson. There is a game-play video as well. Well, sort of a game-play video. Ok, not really, but it is still cool to watch.
+After reading Levine&amp;rsquo;s interview, I had renewed interested in the franchise. The most interesting thing in Bioshock for me was not the plot, not the gameplay, but the setting.</description>
+      
+    </item>
+    
+    <item>
+      <title>Nehrim</title>
+      <link>/blog/nehrim/</link>
+      <pubDate>Tue, 21 Sep 2010 11:39:00 -0400</pubDate>
+      
+      <guid>/blog/nehrim/</guid>
+      <description>Last week I started playing Nehrim, a total conversion mod for Oblivion. It features new art, music, monsters, items, dungeons, terrain&amp;hellip; pretty much everything. It is completely distinct from Oblivion; it shares the same engine and a few art assets, the similarities end there. So far I have dropped about 20 hours into it, with no end in sight. To understand what I like about Nehrim, I have to begin with what I didn&amp;rsquo;t like about Oblivion: character progression was unrewarding and repetitive.</description>
+      
+    </item>
+    
+    <item>
+      <title>Game Creative Direction Case Study</title>
+      <link>/blog/game_creative_direction_case_study/</link>
+      <pubDate>Tue, 14 Sep 2010 11:37:00 -0400</pubDate>
+      
+      <guid>/blog/game_creative_direction_case_study/</guid>
+      <description>I recently had the pleasure of completing Psychonauts, a game I should have played a long time ago. There is little novelty in terms of game-play here: it&amp;rsquo;s 3rd person, you run around and collect stuff to unlock additional levels. As you progress you learn new psychic powers, and you can &amp;ldquo;equip&amp;rdquo; them using an interface players of the more recent Zelda installments will quickly recognize. There is some humor in the dialog and plot which is entertaining too.</description>
+      
+    </item>
+    
+    <item>
+      <title>Honeymoon: Monteverde</title>
+      <link>/blog/honeymoon_monteverde/</link>
+      <pubDate>Sun, 22 Aug 2010 11:32:00 -0400</pubDate>
+      
+      <guid>/blog/honeymoon_monteverde/</guid>
+      <description>Our last stop was Monteverde, the &amp;ldquo;Cloud Forest&amp;rdquo;. So named because of the elevation, the mountain tops are over the cloud cover, resulting in forestry that is frequently enshrouded by clouds. The climate here was a welcome change: 70s and much lower humidity. The resort we stayed at was called El Establo.
+Like Arenal this part of our trip was dominated by tours and hikes into the forest: butterfly gardens, hummingbird gardens, and more hanging bridges.</description>
+      
+    </item>
+    
+    <item>
+      <title>Music Library Tools Part 2: Setting ID3 Tags</title>
+      <link>/blog/music_library_tools_part_2_setting_id3_tags/</link>
+      <pubDate>Thu, 19 Aug 2010 11:33:00 -0400</pubDate>
+      
+      <guid>/blog/music_library_tools_part_2_setting_id3_tags/</guid>
+      <description>Update: I&amp;rsquo;ve made quite a few enhancements to the script:
+Smarter Renaming Tags Ogg-vorbis files Tags FLAC files Handles a few more genres  ID3 tags are bits of data encoded in an mp3 file that catalogue the artist, album, year, genre, song title and other fields of metadata that explain what an mp3 is. On linux, you can manipulate these fields using the id3v2 command line utility. It&amp;rsquo;s important to use version 2 of the ID3 tag specification because modern players skip any tagging done with version 1.</description>
+      
+    </item>
+    
+    <item>
+      <title>Honeymoon: Arenal</title>
+      <link>/blog/honeymoon_arenal/</link>
+      <pubDate>Thu, 19 Aug 2010 11:31:00 -0400</pubDate>
+      
+      <guid>/blog/honeymoon_arenal/</guid>
+      <description>Our second stop was Arenal. There are 112 volcanoes in Costa Rica, only 7 of which are active, and only one of which has the characteristic cone-shape. Arenal erupted in 1968, leveling a town and killing 65 people. It erupted again in 1992, with 5 injured.
+Today it erupts fairly frequently, but they&amp;rsquo;re small and harmless. It erupted 3 times while we were watching: twice at night and once during the day.</description>
+      
+    </item>
+    
+    <item>
+      <title>Honeymoon: Tortuguero</title>
+      <link>/blog/honeymoon_tortuguero/</link>
+      <pubDate>Wed, 18 Aug 2010 11:30:00 -0400</pubDate>
+      
+      <guid>/blog/honeymoon_tortuguero/</guid>
+      <description>We began our eco-touring in one of the wettest parts of the country: Tortuguero. We knew we were getting remote when we had to take a river boat up a river for an hour and half to reach the lodge. It is not possible to reach it on foot (for the average person), let alone a car. First we all climbed into a bus and headed to the Rio Dante: a small open-air restaurant on the outskirts of the reserve.</description>
+      
+    </item>
+    
+    <item>
+      <title>Honeymoon: San Jose</title>
+      <link>/blog/honeymoon_san_jose/</link>
+      <pubDate>Tue, 17 Aug 2010 11:28:00 -0400</pubDate>
+      
+      <guid>/blog/honeymoon_san_jose/</guid>
+      <description>Yesterday Muffin and I returned from our Costa Rican Honeymoon, a two week long eco-tour trip. Overall the trip was a success: we didn&amp;rsquo;t think about work or any stress-inducing issues at home at all. Nobody could contact us in any form since cell phones were unusable (I didn&amp;rsquo;t even bring mine or the laptop).
+We traveled to 4 locations: San Jose, Tortuguero, Arenal, and Monteverde. The break down of time is as follows: 1 night in San Jose, 3 in Tortuguero, 5 in Arenal, 3 in Monteverde, and 1 more in San Jose.</description>
+      
+    </item>
+    
+    <item>
+      <title>Music Library Tools: m4a to mp3</title>
+      <link>/blog/music_library_tools_m4a_to_mp3/</link>
+      <pubDate>Thu, 22 Jul 2010 11:27:00 -0400</pubDate>
+      
+      <guid>/blog/music_library_tools_m4a_to_mp3/</guid>
+      <description>Many songs I have from iTunes are in the m4a format, but since iTunes doesn&amp;rsquo;t exist on Fedora, I have to convert them if I want to listen to them there. I chose mp3 since that is the most interoperable even though it isn&amp;rsquo;t a &amp;ldquo;free&amp;rdquo; codec. We start with a simple shell script:
+if [ -z &amp;quot;$1&amp;quot; ] ; then echo &#39;You must specify a path to an m4a file&#39; exit 1 fi faad -o - &amp;quot;$1&amp;quot; | lame -V 0 - &amp;quot;${1%.</description>
+      
+    </item>
+    
+    <item>
+      <title>ION 2010</title>
+      <link>/blog/ion_2010/</link>
+      <pubDate>Wed, 07 Jul 2010 11:26:00 -0400</pubDate>
+      
+      <guid>/blog/ion_2010/</guid>
+      <description>This past weekend we attended Invasion of Normandy 2010, a paintball scenario game that involves over 3,200 players. We attended last year as well.
+Our group was 7 strong this time, up from 3 last year. We had tons of fun. We saw less combat overall this year I think, we spent quite a bit of time hiking in the woods escorting an objective or defending territory. We spent less time on the front lines as well.</description>
+      
+    </item>
+    
+    <item>
+      <title>vimrc</title>
+      <link>/blog/vimrc/</link>
+      <pubDate>Thu, 10 Jun 2010 11:25:00 -0400</pubDate>
+      
+      <guid>/blog/vimrc/</guid>
+      <description>I recently read Hacking Vim in a fit of nerdiness. Honestly, I don&amp;rsquo;t recommend the book: too much of it involved tricks for gvim, which I don&amp;rsquo;t use and is not practical for use in my work environment. Still, I did glean several useful tricks and configuration tips that will be useful. I shall include my new and improved vimrc file here for others to peruse.
+&amp;quot; format the status bar :set laststatus=2 :set statusline=[%F%m%r] [%{&amp;amp;ff}] [%lx%c] [%L] &amp;quot; always show the tab bar :set showtabline=2 &amp;quot; key mappings for adding/moving between tabs :map &amp;lt;C-t&amp;gt; :tabnew&amp;lt;CR&amp;gt; :map &amp;lt;C-left&amp;gt; :tabp&amp;lt;CR&amp;gt; :map &amp;lt;C-right&amp;gt; :tabn&amp;lt;CR&amp;gt; &amp;quot; key mappings for moving by visual lines :nmap &amp;lt;A-UP&amp;gt; gk :nmap &amp;lt;A-DOWN&amp;gt; gj :imap &amp;lt;A-UP&amp;gt; &amp;lt;ESC&amp;gt;gki :imap &amp;lt;A-DOWN&amp;gt; &amp;lt;ESC&amp;gt;gji &amp;quot; open a file named the same as a word the cursor is on :nmap gf :tabf &amp;lt;cfile&amp;gt;&amp;lt;CR&amp;gt; &amp;quot; fill buffers with templates based on file extension :autocmd BufNewFile * silent!</description>
+      
+    </item>
+    
+    <item>
+      <title>MetaRPG News</title>
+      <link>/blog/metarpg_news/</link>
+      <pubDate>Fri, 30 Apr 2010 11:23:00 -0400</pubDate>
+      
+      <guid>/blog/metarpg_news/</guid>
+      <description>MetaRPG is coming along well. In the last few weeks I&amp;rsquo;ve spent weekends working on the server code, and I&amp;rsquo;ve taken an approach that so far, is functioning. There is still a lot to do, but I&amp;rsquo;m happy to report that the client side is feature complete for the first release. This means I don&amp;rsquo;t intend to add any new functionality to it, only supporting code to work with the server and bugfixes.</description>
+      
+    </item>
+    
+    <item>
+      <title>Stream Ripping</title>
+      <link>/blog/stream_ripping/</link>
+      <pubDate>Fri, 02 Apr 2010 11:22:00 -0400</pubDate>
+      
+      <guid>/blog/stream_ripping/</guid>
+      <description>Wednesday Illinoise implicitly told me he installed Fedora on his new system, so this post is a tribute to him as a reminder why Linux is more fun to work with for the hobby programmer. I tried to be pedantic and thorough so everyone can follow along. Consider this command:
+ffmpeg -i $(find ~/.mozilla -regex &amp;lsquo;.Cache.&amp;rsquo; -a -not -regex &amp;lsquo;.CACHE.&amp;rsquo; -printf &amp;lsquo;%T+ %p\n&amp;rsquo; | sort -n | cut -f2 -d&amp;rsquo; &#39; | xargs file | grep -i Video | awk -F : &amp;lsquo;{ print $1 }&amp;rsquo; | tail -1) -vcodec msmpeg4v2 -b 1024000 -ab 128 -s 640x480 video.</description>
+      
+    </item>
+    
+    <item>
+      <title>Killington Weekend</title>
+      <link>/blog/killington_weekend/</link>
+      <pubDate>Fri, 02 Apr 2010 11:20:00 -0400</pubDate>
+      
+      <guid>/blog/killington_weekend/</guid>
+      <description>Muffin and I learned to ski last weekend up at Killington, VT. We had 2 days of it with great weather and the instructors were very good at what they do. By the end of it we were exploring green trails on our own and risked a blue one where we each fell once or twice.
+Even at the end of March the (manufactured) snow was in good shape and there was plenty to check out.</description>
+      
+    </item>
+    
+    <item>
+      <title>pyrocket!</title>
+      <link>/blog/pyrocket/</link>
+      <pubDate>Sun, 14 Mar 2010 11:19:00 -0400</pubDate>
+      
+      <guid>/blog/pyrocket/</guid>
+      <description>I felt like tackling a short-term programming project. I own a USB Missile Launcher but unfortunately I wasn&amp;rsquo;t able to use it at work because the drivers &amp;amp; application it comes with are Windows only.
+So I hunted around for a linux solution, and came across one in Ubuntu called pyrocket. Not long after that discovery did I port it to Fedora. I don&amp;rsquo;t have much to test with though; the package works with web cams, other models of launchers, and joysticks.</description>
+      
+    </item>
+    
+    <item>
+      <title>Tour of Jerusalem</title>
+      <link>/blog/tour_of_jerusalem/</link>
+      <pubDate>Sat, 13 Feb 2010 11:17:00 -0400</pubDate>
+      
+      <guid>/blog/tour_of_jerusalem/</guid>
+      <description>On the Friday of the Israel trip we took an all-day tour of Jerusalem, the capital city. Herein I&amp;rsquo;ll share some of the sites we saw and the pictures we took.
+Scrolls of Fire
+A monument outside of Jerusalem chronicling the restoration of the Jewish state.
+Tomb of Mary
+A site outside of Jerusalem where Mary was buried.
+Other Sites
+Other locales in and other of the city.
+Way of the Cross</description>
+      
+    </item>
+    
+    <item>
+      <title>Doin&#39; It Rite</title>
+      <link>/blog/doin_it_rite/</link>
+      <pubDate>Fri, 12 Feb 2010 11:16:00 -0400</pubDate>
+      
+      <guid>/blog/doin_it_rite/</guid>
+      <description>I have to call this out in a separate post. All 5 days I was in Ra&amp;rsquo;anana office were mostly spent in meetings with development team leads. At 10am each day we&amp;rsquo;d spend two hours talking about what was resolved, and what needs to be, they were meetings to keep the group focused for the day. The next 6-8 hours were informal meetings between the 2 of us from Release Engineering, and whichever team leads felt like sticking around.</description>
+      
+    </item>
+    
+    <item>
+      <title>Good Evening from Herzliya</title>
+      <link>/blog/good_evening_from_herzliya/</link>
+      <pubDate>Sat, 06 Feb 2010 11:15:00 -0400</pubDate>
+      
+      <guid>/blog/good_evening_from_herzliya/</guid>
+      <description>Good evening from Herzliya! We (a coworker and I) landed at 3pm today, which is 8am your time. I have to say so far the place is great, much nicer than expected. It&amp;rsquo;s like a city in southern California with all signs in Hebrew. Our hotel is on the Mediterranean beach, and we&amp;rsquo;ve been to two bars and a seafood restaurant. I&amp;rsquo;ll have pictures up as the trip goes on. For now though, I really feel like I need to sleep.</description>
+      
+    </item>
+    
+    <item>
+      <title>More MetaRPG Progress</title>
+      <link>/blog/more_metarpg_progress/</link>
+      <pubDate>Tue, 02 Feb 2010 11:14:00 -0400</pubDate>
+      
+      <guid>/blog/more_metarpg_progress/</guid>
+      <description>Work continues on MetaRPG. Do those stats on the left in the screenshot look familiar? I took the program through a real use case tonight: building a 4th edition character sheet template. I thought of a few usability improvements on the way but the core functionality felt complete. Chat works too, although only if you want to talk to yourself. The purple text near the bottom are hotlinks: similar to linking items in WoW you can link items or skills (or anything really) into text so others can mouse over and see the stats.</description>
+      
+    </item>
+    
+    <item>
+      <title>3 Challenges for Illinoise</title>
+      <link>/blog/3_challenges_for_illinoise/</link>
+      <pubDate>Wed, 27 Jan 2010 11:13:00 -0400</pubDate>
+      
+      <guid>/blog/3_challenges_for_illinoise/</guid>
+      <description>Complete World 5.2 of Demon&amp;rsquo;s Souls. This level is entirely poisonous, and even the creators admit difficulty completing it. Do this, and I will value your opinion on games higher than my own. Please take a moment and think about the implications. You could say Bayonetta is a fabulous game, and I would be forced to acquiesce to your better judgement. If you can successfully hack Brolem.net, feel free to be liberal with your new-found privileges, but please don&amp;rsquo;t ruin it beyond repair.</description>
+      
+    </item>
+    
+    <item>
+      <title>Gource</title>
+      <link>/blog/gource/</link>
+      <pubDate>Wed, 27 Jan 2010 11:11:00 -0400</pubDate>
+      
+      <guid>/blog/gource/</guid>
+      <description>This post has a youtube link below that I need to explain before you click on it. It does not involve cats, yelling, dubbing over star trek, griefing in Second Life, crying teens, shitting on someone&amp;rsquo;s porch, Jackass-quality stunts, violence, anal sex, awful mashups, or Halo headshots. So basically nobody is going to give a shit about it except me.
+It was generated using Gource, a program that takes the commit logs of an SCM and generates a visualization of activity over a given people of time.</description>
+      
+    </item>
+    
+    <item>
+      <title>Cold Brewed Coffee</title>
+      <link>/blog/cold_brewed_coffee/</link>
+      <pubDate>Wed, 27 Jan 2010 11:10:00 -0400</pubDate>
+      
+      <guid>/blog/cold_brewed_coffee/</guid>
+      <description>A co-worker of mine was sharing this secret the other day. Coffee without the characteristic bitterness. Extraordinarily smooth. Even Liz could drink it black. Follow these instructions to enjoy it yourself:
+ Buy this. Sorry, few things are free. Put a pound of coarse-grind coffee in the bottom vessel. Fill the top vessel with room-temperature water (or cold, whatever), and let the unit sit for 12-24 hours. By the next day you&amp;rsquo;ll have a coffee concentrate.</description>
+      
+    </item>
+    
+    <item>
+      <title>Machinarium</title>
+      <link>/blog/machinarium/</link>
+      <pubDate>Wed, 27 Jan 2010 11:09:00 -0400</pubDate>
+      
+      <guid>/blog/machinarium/</guid>
+      <description>Turns out I have a free night tonight so I can finally put down a few posts that I&amp;rsquo;ve been meaning to get to for several days.
+I&amp;rsquo;ll start with a review of Machinarium. This is, literally, a point-and-click adventure game written in Flash. P-n-C games were popular in the early nineties, you rarely see these at all any more with today&amp;rsquo;s graphics but this one was surprisingly good. It&amp;rsquo;s only $10 that you can download from their site easily (and legitimately).</description>
+      
+    </item>
+    
+    <item>
+      <title>Transcoding</title>
+      <link>/blog/transcoding/</link>
+      <pubDate>Sun, 17 Jan 2010 11:08:00 -0400</pubDate>
+      
+      <guid>/blog/transcoding/</guid>
+      <description>Been messing with HandBrake a lot lately to transcode the majority of my movie/anime library into an encoding the xbox360 can understand. It&amp;rsquo;s a great program; very easy to use thanks to &amp;ldquo;presets&amp;rdquo;, a set of configuration options to the encoder and muxer to encode the video the way you want. It understands pretty much any format, including straight DVD rips, but with the latest version it only outputs to a few modern formats.</description>
+      
+    </item>
+    
+    <item>
+      <title>uShare</title>
+      <link>/blog/ushare/</link>
+      <pubDate>Wed, 16 Dec 2009 11:07:00 -0400</pubDate>
+      
+      <guid>/blog/ushare/</guid>
+      <description>Illinoise inspired me while I was home for the holidays: via TVersity he is able to play media from his desktop that is sitting in his room upstairs on his PS3. I wanted to do something similar, but TVersity is Windows-only which is unacceptable. I did get uShare working on mine though, which provides a Universal Plug aNd Play server that xbox360s can identify on the network.
+uShare is very lightweight, and like any good linux tool, console-driven.</description>
+      
+    </item>
+    
+    <item>
+      <title>Healthcare Today</title>
+      <link>/blog/healthcare_today/</link>
+      <pubDate>Wed, 16 Dec 2009 11:06:00 -0400</pubDate>
+      
+      <guid>/blog/healthcare_today/</guid>
+      <description>If you&amp;rsquo;re like me, you have an opinion on the state of health care and how to reform it, but not one informed well enough that you&amp;rsquo;re comfortable with being regularly vocal about it. If you&amp;rsquo;re not like me, get a job. Anyway, to assist with getting an informed opinion you are willing to share with others, I&amp;rsquo;ve enclosed a series of podcasts from npr.org that really helped me understand how things are today.</description>
+      
+    </item>
+    
+    <item>
+      <title>Ink</title>
+      <link>/blog/ink/</link>
+      <pubDate>Wed, 09 Dec 2009 11:03:00 -0400</pubDate>
+      
+      <guid>/blog/ink/</guid>
+      <description>I can&amp;rsquo;t remember if one of you guys recommended this, but I just saw Ink via Netflix. It&amp;rsquo;s an indie movie, so expect something unusual when you&amp;rsquo;re watching it. It&amp;rsquo;s also a mind trip, so be in a good mental state too if you want to have any chance of understanding it on deeper levels.
+Anyway I found it to be very enjoyable and recommend it.</description>
+      
+    </item>
+    
+    <item>
+      <title>Dubious Intentions</title>
+      <link>/blog/dubious_intentions/</link>
+      <pubDate>Sun, 06 Dec 2009 11:04:00 -0400</pubDate>
+      
+      <guid>/blog/dubious_intentions/</guid>
+      <description>Been playing Dragon Age a lot lately with a 2nd character: a dwarf rogue commoner. I&amp;rsquo;m also exploring the shadier quests and dialogue options, and sometimes the game lets me take certain &amp;ldquo;liberties&amp;rdquo; that probably wouldn&amp;rsquo;t fly in real life. Here begins a catalogue of such actions.
+ The guardsmen of a the local garrison need a morale boost before a fight with the undead. I suggested handing out a bunch of silver holy symbols with no magical power at all&amp;hellip; but said that they did.</description>
+      
+    </item>
+    
+    <item>
+      <title>Nothing Else Matters</title>
+      <link>/blog/nothing_else_matters/</link>
+      <pubDate>Sat, 05 Dec 2009 11:02:00 -0400</pubDate>
+      
+      <guid>/blog/nothing_else_matters/</guid>
+      <description>Not long ago Mogg mentioned listening to Apocalyptica, a band consisting of a classical string instruments (bass, cello) plus drums whose music is covers of metal classics and much of their own material. This group came up on Pandora a few times for me as well, and I really enjoyed them, so finally I started listening more seriously.
+One of the first pieces I recognized was a cover of Nothing Else Matters by Metallica; one I think we&amp;rsquo;re all familiar with.</description>
+      
+    </item>
+    
+    <item>
+      <title>US Broadband</title>
+      <link>/blog/us_broadband/</link>
+      <pubDate>Fri, 30 Oct 2009 11:01:00 -0400</pubDate>
+      
+      <guid>/blog/us_broadband/</guid>
+      <description>Not long ago I came across and article that mentioned the National Broadband Network or NBN. This is a government effort in Australia to bring 100Mb/s to 90% of the country/continent&amp;rsquo;s population.
+Personally, I&amp;rsquo;m almost unilaterally in favor of any government measure that keeps technology rolling forward. The biggest criticism for this project is that the Aussie government is spending about $43 billion dollars on it. With 8 million residents, that&amp;rsquo;s about $5,000 being spent per household.</description>
+      
+    </item>
+    
+    <item>
+      <title>Thief Meets Doom</title>
+      <link>/blog/thief_meets_doom/</link>
+      <pubDate>Tue, 13 Oct 2009 11:00:00 -0400</pubDate>
+      
+      <guid>/blog/thief_meets_doom/</guid>
+      <description>This is more for Mogg than the rest of you I think, but here we go anyway. Some clowns have been working on a Thief mod for Doom 3 for 5 years, and it just went into &amp;ldquo;beta&amp;rdquo;. I know we&amp;rsquo;ve got a long list of games to play already, practically one coming out each week until Christmas, but it might be worth checking out afterward.
+http://www.shacknews.com/onearticle.x/60916</description>
+      
+    </item>
+    
+    <item>
+      <title>ODST Review</title>
+      <link>/blog/odst_review/</link>
+      <pubDate>Tue, 13 Oct 2009 10:59:00 -0400</pubDate>
+      
+      <guid>/blog/odst_review/</guid>
+      <description>I&amp;rsquo;m tempted to bring the full balls-to-the-wall hatefest for this but really I just can&amp;rsquo;t make myself care enough to get riled up. It&amp;rsquo;s more Halo, and you&amp;rsquo;ve seen what Halo is. There is nothing to be said for graphics, sound and gameplay that you haven&amp;rsquo;t already been exposed to.
+New weapons: a flamethrower and a silenced SMG. You see the flamethrower in one mission, and there is only one of them.</description>
+      
+    </item>
+    
+    <item>
+      <title>MetaRPG Update</title>
+      <link>/blog/metarpg_update/</link>
+      <pubDate>Sun, 04 Oct 2009 10:57:00 -0400</pubDate>
+      
+      <guid>/blog/metarpg_update/</guid>
+      <description>Just wanted to update you guys on MetaRPG development. The stat window is near completion, at least for my initial design goals. The main difference from OpenRPG&amp;rsquo;s stat window is a lack of &amp;ldquo;container&amp;rdquo; objects, and all dice rolls and such are represented as python objects rather than a formatted string that is processed.
+Recall that in OpenRPG you could type [1d20+2] and that would roll a die for you. When I write the chat window code I intend to have that kind of processing but not in how a stat (or full character sheet) is defined in the stat window.</description>
+      
+    </item>
+    
+    <item>
+      <title>9</title>
+      <link>/blog/9/</link>
+      <pubDate>Tue, 29 Sep 2009 10:57:00 -0400</pubDate>
+      
+      <guid>/blog/9/</guid>
+      <description>I just saw 9 with Liz, and discovered that it is one of those movies I wish I first saw with you guys (and with Liz). From start to finish this movie is incredibly imaginative, filled with silent commentary about what humanity is, and displayed with the creepiness of Tim Burton at his finest.
+Fantastic movie: 10/10. I&amp;rsquo;m usually conservative with perfect reviews, and I hope the fact that I raved about District 9 only a few months ago doesn&amp;rsquo;t dilute this recommendation.</description>
+      
+    </item>
+    
+    <item>
+      <title>Game Atmosphere Case Study</title>
+      <link>/blog/game_atmosphere_case_study/</link>
+      <pubDate>Fri, 18 Sep 2009 10:56:00 -0400</pubDate>
+      
+      <guid>/blog/game_atmosphere_case_study/</guid>
+      <description>Many of us carry on about current generation games failing to provide an immersive setting or atmosphere, despite improvements in graphics, sound, and gameplay. While there may be something to be said about our long experience playing video games, perhaps related to desensitization, I would like to offer a study on a game I&amp;rsquo;ve been (re-)playing lately that continues to deliver a compelling atmospheric gaming experience: STALKER: Shadow of Chernobyl. (SoC)</description>
+      
+    </item>
+    
+    <item>
+      <title>Awards</title>
+      <link>/blog/awards/</link>
+      <pubDate>Thu, 03 Sep 2009 10:54:00 -0400</pubDate>
+      
+      <guid>/blog/awards/</guid>
+      <description>These are the Awards available to win, as far as I can remember. Please correct me if I&amp;rsquo;m wrong. Originally we had a clear list, but over time other character flaws that were more regularly expressed might have become what the Award was associated with.
+ Mogg Award: Being a tool. A slave to any authority such as work, your wife, or other responsibilities your friends believe to not be worth your time.</description>
+      
+    </item>
+    
+    <item>
+      <title>Wolfenstein</title>
+      <link>/blog/wolfenstein/</link>
+      <pubDate>Sun, 30 Aug 2009 10:52:00 -0400</pubDate>
+      
+      <guid>/blog/wolfenstein/</guid>
+      <description>I just finished the new Wolfenstein that was released 2 weeks ago. This will be a favorable review, so lets start with the bad stuff.
+ Grunt nazis can be a little brain-dead at times. On more than one occasion I&amp;rsquo;d be fighting a squad of them, and one-by-one they&amp;rsquo;d suddenly come barreling around the corner into my gunfire. They can also be a little predictable with the cover and gun-emplacements they&amp;rsquo;ll choose to use.</description>
+      
+    </item>
+    
+    <item>
+      <title>Reminded Not to Start WoW Again</title>
+      <link>/blog/reminded_not_to_start_wow_again/</link>
+      <pubDate>Wed, 12 Aug 2009 10:50:00 -0400</pubDate>
+      
+      <guid>/blog/reminded_not_to_start_wow_again/</guid>
+      <description>From the 3.2.2 patch notes:
+&amp;ldquo;She has lurked in her lair and done battle with the many brave adventurers who travelled to that familiar location over the years. Now, in honor of the World of Warcraft 5-year anniversary, the dreaded brood mother Onyxia is being revamped to make a return to the forefront of Azeroth, as part of our big plans for the upcoming 3.2.2 content patch.
+This permanent update to Onyxia will convert the dungeon into 10- and 25-player modes.</description>
+      
+    </item>
+    
+    <item>
+      <title>Game Forecast</title>
+      <link>/blog/game_forecast/</link>
+      <pubDate>Sat, 08 Aug 2009 10:49:00 -0400</pubDate>
+      
+      <guid>/blog/game_forecast/</guid>
+      <description>Figured I&amp;rsquo;d share a list of games I&amp;rsquo;m interested coming up in the next 6 months. Watch out for noise and Flash-orgies in some of these links.
+Borderlands on October 20th Starcraft 2 in the first half of 2010. Dragon-Age: Origins on November 3rd Bioshock 2 in the first half of 2010. See also this if you&#39;re an Invader Zim fan. Assassin&#39;s Creed 2 on November 17th Max Payne 3 this winter.</description>
+      
+    </item>
+    
+    <item>
+      <title>PC ProTip</title>
+      <link>/blog/pc_protip/</link>
+      <pubDate>Thu, 06 Aug 2009 10:48:00 -0400</pubDate>
+      
+      <guid>/blog/pc_protip/</guid>
+      <description>Here&amp;rsquo;s a little ProTip for those thinking about water cooling: (re)tighten the clamps after moving your computer around. Last week I smelled car coolant in the study, and few things will make me that anxious. Long story short, a clamp by the graphics card got loose and had a very slow leak. When I inspected it, the water had flowed around water block and had dripped down onto the case below.</description>
+      
+    </item>
+    
+    <item>
+      <title>F.E.A.R. 2 Review</title>
+      <link>/blog/f.e.a.r._2_review/</link>
+      <pubDate>Wed, 05 Aug 2009 10:45:00 -0400</pubDate>
+      
+      <guid>/blog/f.e.a.r._2_review/</guid>
+      <description>Lets get right to the point: I wouldn&amp;rsquo;t even use this piece of shit to bludgeon those bleeding heart assbags on Whale Wars to death. This is going to have a shit ton of spoilers so stop reading if you care. You shouldn&amp;rsquo;t though if you still want to be my friend.
+Ok, original story, lets be honest: pretty good. Believable if you&amp;rsquo;re into Sci-Fi. (or SyFy if you&amp;rsquo;re a colossal tool) Evil Corporation is creating any army of soldiers that don&amp;rsquo;t question orders.</description>
+      
+    </item>
+    
+    <item>
+      <title>DefCon (Part 3)</title>
+      <link>/blog/defcon_part_3/</link>
+      <pubDate>Mon, 03 Aug 2009 10:40:00 -0400</pubDate>
+      
+      <guid>/blog/defcon_part_3/</guid>
+      <description>DefCon is over, which is a sad thing since some shenanigans were just getting interesting. A couple of tweets like this one started rumors of a trojan on the DefCon CD, which turned out to be false. A few people were arrested on the roof of the Riviera; they got there after learning how to pick locks. And someone installed a fake ATM machine in the hotel.
+Saturday night with Plake turned out to be a lot of fun.</description>
+      
+    </item>
+    
+    <item>
+      <title>DefCon (Part 2)</title>
+      <link>/blog/defcon_part_2/</link>
+      <pubDate>Sat, 01 Aug 2009 10:39:00 -0400</pubDate>
+      
+      <guid>/blog/defcon_part_2/</guid>
+      <description>Another day down.
+Talks attended:
+(*** )Breaking the Unbreakable Oracle: New auxiliary module for metasploit to automate breaking into Oracle databases, and granting a given user DBA privs. (**** )Using Guided Missiles in Drive-bys: -1 for the title being misleading. This talk about fingerprinting a browser and launching targeted exploits (via metasploit) was pretty interesting. (** )Security risks of Web 2.0: Broad overview kind of thing, not too technical. My interest was to see if this site had any flaws I should know about, but that expectation was not met.</description>
+      
+    </item>
+    
+    <item>
+      <title>DefCon (part 1)</title>
+      <link>/blog/defcon_part_1/</link>
+      <pubDate>Sat, 01 Aug 2009 10:37:00 -0400</pubDate>
+      
+      <guid>/blog/defcon_part_1/</guid>
+      <description>It&amp;rsquo;s 7am and I&amp;rsquo;m wide awake and ready for another day at DefCon 17. Well maybe that isn&amp;rsquo;t entirely fair to say, since it&amp;rsquo;s actually 10am where I live.
+Thursday we (me and my Dad) arrived and met up at the airport around 3:30. Checked in and walked to the Riviera. We registered and picked up our badges, but by that point there weren&amp;rsquo;t any more talks and the vendor area was still being set up, so we just left and took a cab to the MGM Grand.</description>
+      
+    </item>
+    
+    <item>
+      <title>inFamous</title>
+      <link>/blog/infamous/</link>
+      <pubDate>Mon, 27 Jul 2009 10:34:00 -0400</pubDate>
+      
+      <guid>/blog/infamous/</guid>
+      <description>The last couple of Saturdays I spent the evening working on inFamous at a buddy&amp;rsquo;s place, and this past one I finished it. You&amp;rsquo;ve got a big GTA style city to run around in and electricity-based superpowers. The game hypes up &amp;ldquo;choice&amp;rdquo; your character has to make. What would you do in a city with superpowers?
+Sound is fine, there are some good music tracks but most of it is forgettable.</description>
+      
+    </item>
+    
+    <item>
+      <title>ION &#39;09</title>
+      <link>/blog/ion_09/</link>
+      <pubDate>Sun, 26 Jul 2009 10:32:00 -0400</pubDate>
+      
+      <guid>/blog/ion_09/</guid>
+      <description>Attended the Invasion of Normandy event at skirmish last weekend. Definitely an event I&amp;rsquo;ll remember for some time.
+Friday
+To get warmed up we started with a free game that went from 6-9pm. Imagine two large forts on opposite ends of a course that is shaped like a large U (but rather than being a 180 degree U it was more like 120). Between the forts are small dinky towns and a lot of woods, and scattered about are big white jugs.</description>
       
     </item>
     
