@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jay</title>
+    <link>http://zyzyx.github.io/</link>
+    <description>Recent content on Jay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Mar 2023 14:19:25 -0400</lastBuildDate><atom:link href="http://zyzyx.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://zyzyx.github.io/about/me/</link>
+      <pubDate>Sun, 26 Mar 2023 14:19:25 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/about/me/</guid>
+      <description>All opinons here are my own, not my employer or any other organization cited here.
+Career I started with a 2 year stint at HP as a software developer, got laid off, and have worked at Red Hat, Inc. ever since. It’s been good; I’m not actively looking for a new job. IBM acquired us a few years ago and continues to behave like an ally too, which is encouraging.</description>
+    </item>
+    
+  </channel>
+</rss>
