@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jay&#39;s Bio on Jay&#39;s Site</title>
+    <link>http://zyzyx.github.io/bio/</link>
+    <description>Recent content in Jay&#39;s Bio on Jay&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Apr 2023 15:51:21 -0400</lastBuildDate><atom:link href="http://zyzyx.github.io/bio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>http://zyzyx.github.io/bio/me/</link>
+      <pubDate>Sun, 26 Mar 2023 14:19:25 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/bio/me/</guid>
+      <description>I have a wife with 2 kids. On a given night of the work week I’m usually practicing on the drum kit, playing board games (currently on Frosthaven, playing videos games online, maintaining a Cyberpunk Red system for FoundryVTT, or painting miniatures. Prior to raising kids I also played a lot of Ultimate (frisbee) and paintball.
+I wrote a separate long-winded post about my professional career.
+I do not have a social media presence so if you want to get in contact, you can try a git forge (see the icons in the left side bar), or finding me on Discord.</description>
+    </item>
+    
+    <item>
+      <title>Career</title>
+      <link>http://zyzyx.github.io/bio/career/</link>
+      <pubDate>Mon, 27 Mar 2023 14:19:25 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/bio/career/</guid>
+      <description>All opinons here are my own, not my employer or any other organization cited here.
+Overview I started with a 2 year stint at HP as a software developer, got laid off, and have worked at Red Hat, Inc. ever since. It’s been good; I’m not actively looking for a new job. IBM acquired us a few years ago and continues to behave like an ally too, which is encouraging.</description>
+    </item>
+    
+    <item>
+      <title>Minis</title>
+      <link>http://zyzyx.github.io/bio/minis/</link>
+      <pubDate>Sat, 15 Apr 2023 17:21:45 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/bio/minis/</guid>
+      <description>For fun, I paint miniature models that I think look cool. I don&amp;rsquo;t play war games like Warhammer or anything like that, just paint. I do play a lot of board games and often paint minis in those, or the minis in friends&amp;rsquo; board games. Random minis to paint make for good birthday presents or work rewards too. I&amp;rsquo;m not too concerned with having a presentable &amp;ldquo;set&amp;rdquo;.
+A long time ago I dipped my toe into photography and had bought a macro lens for my camera, which is a Canon Rebel T5i.</description>
+    </item>
+    
+    <item>
+      <title>Games</title>
+      <link>http://zyzyx.github.io/bio/games/</link>
+      <pubDate>Sun, 16 Apr 2023 09:02:43 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/bio/games/</guid>
+      <description>I do have a video gaming habit. I&amp;rsquo;m currently working on a single player run of Cyberpunk 2077.
+I&amp;rsquo;ll put more history here some time soon. While I do have other consoles, most of the time I&amp;rsquo;m on PC, and you can see my steam profile for what I&amp;rsquo;ve been playing lately.
+A little project I have going is making a decal for my car for each game I have spent more than 100 hours in.</description>
+    </item>
+    
+  </channel>
+</rss>

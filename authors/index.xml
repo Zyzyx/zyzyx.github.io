@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Jay&#39;s Site</title>
+    <link>http://zyzyx.github.io/authors/</link>
+    <description>Recent content in Authors on Jay&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Apr 2023 15:30:29 -0400</lastBuildDate><atom:link href="http://zyzyx.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alec Spidalieri</title>
+      <link>http://zyzyx.github.io/authors/alec-spidalieri/</link>
+      <pubDate>Fri, 21 Apr 2023 15:30:29 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/authors/alec-spidalieri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alec Spidallieri</title>
+      <link>http://zyzyx.github.io/authors/alec-spidallieri/</link>
+      <pubDate>Mon, 17 Apr 2023 22:40:21 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/authors/alec-spidallieri/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
