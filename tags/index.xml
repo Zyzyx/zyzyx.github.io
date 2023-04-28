@@ -1,10 +1,218 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Jay Greguske&#39;s Bio</title>
+    <title>Tags on Jay&#39;s Site</title>
     <link>http://zyzyx.github.io/tags/</link>
-    <description>Recent content in Tags on Jay Greguske&#39;s Bio</description>
+    <description>Recent content in Tags on Jay&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://zyzyx.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Apr 2023 19:26:05 -0400</lastBuildDate><atom:link href="http://zyzyx.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Savory</title>
+      <link>http://zyzyx.github.io/tags/savory/</link>
+      <pubDate>Thu, 27 Apr 2023 19:26:05 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/savory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summer</title>
+      <link>http://zyzyx.github.io/tags/summer/</link>
+      <pubDate>Thu, 27 Apr 2023 19:26:05 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/summer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Whiskey</title>
+      <link>http://zyzyx.github.io/tags/whiskey/</link>
+      <pubDate>Thu, 27 Apr 2023 19:26:05 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/whiskey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sour</title>
+      <link>http://zyzyx.github.io/tags/sour/</link>
+      <pubDate>Fri, 21 Apr 2023 15:30:29 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/sour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tequila</title>
+      <link>http://zyzyx.github.io/tags/tequila/</link>
+      <pubDate>Fri, 21 Apr 2023 15:30:29 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/tequila/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rum</title>
+      <link>http://zyzyx.github.io/tags/rum/</link>
+      <pubDate>Fri, 21 Apr 2023 15:25:32 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/rum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Whoa</title>
+      <link>http://zyzyx.github.io/tags/whoa/</link>
+      <pubDate>Fri, 21 Apr 2023 15:25:32 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/whoa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tiki</title>
+      <link>http://zyzyx.github.io/tags/tiki/</link>
+      <pubDate>Mon, 17 Apr 2023 22:49:33 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/tiki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fruity</title>
+      <link>http://zyzyx.github.io/tags/fruity/</link>
+      <pubDate>Mon, 17 Apr 2023 22:45:43 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/fruity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spring</title>
+      <link>http://zyzyx.github.io/tags/spring/</link>
+      <pubDate>Mon, 17 Apr 2023 22:45:43 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/spring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vodka</title>
+      <link>http://zyzyx.github.io/tags/vodka/</link>
+      <pubDate>Mon, 17 Apr 2023 22:45:43 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/vodka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Floral</title>
+      <link>http://zyzyx.github.io/tags/floral/</link>
+      <pubDate>Mon, 17 Apr 2023 22:40:21 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/floral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Citrus</title>
+      <link>http://zyzyx.github.io/tags/citrus/</link>
+      <pubDate>Mon, 17 Apr 2023 22:35:57 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/citrus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gin</title>
+      <link>http://zyzyx.github.io/tags/gin/</link>
+      <pubDate>Mon, 17 Apr 2023 22:29:41 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/gin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Herbal</title>
+      <link>http://zyzyx.github.io/tags/herbal/</link>
+      <pubDate>Mon, 17 Apr 2023 22:29:41 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/herbal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autumn</title>
+      <link>http://zyzyx.github.io/tags/autumn/</link>
+      <pubDate>Mon, 17 Apr 2023 22:24:47 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/autumn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spicy</title>
+      <link>http://zyzyx.github.io/tags/spicy/</link>
+      <pubDate>Mon, 17 Apr 2023 22:03:40 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/spicy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fall</title>
+      <link>http://zyzyx.github.io/tags/fall/</link>
+      <pubDate>Mon, 17 Apr 2023 21:53:15 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/fall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Whisky</title>
+      <link>http://zyzyx.github.io/tags/whisky/</link>
+      <pubDate>Mon, 17 Apr 2023 21:53:15 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/whisky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vegetal</title>
+      <link>http://zyzyx.github.io/tags/vegetal/</link>
+      <pubDate>Mon, 17 Apr 2023 21:44:21 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/vegetal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brandy</title>
+      <link>http://zyzyx.github.io/tags/brandy/</link>
+      <pubDate>Mon, 17 Apr 2023 21:40:24 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/brandy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Winter</title>
+      <link>http://zyzyx.github.io/tags/winter/</link>
+      <pubDate>Mon, 17 Apr 2023 21:40:24 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/winter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moonshine</title>
+      <link>http://zyzyx.github.io/tags/moonshine/</link>
+      <pubDate>Mon, 17 Apr 2023 21:08:13 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/tags/moonshine/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -8,6 +8,46 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Apr 2023 15:51:21 -0400</lastBuildDate><atom:link href="http://zyzyx.github.io/drinking/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Hot Rye</title>
+      <link>http://zyzyx.github.io/drinking/hot-rye/</link>
+      <pubDate>Thu, 27 Apr 2023 19:26:05 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/drinking/hot-rye/</guid>
+      <description>This one goes with Mexican faire rather well, with a twist: rye whiskey is the base.
+* 2 oz Rye (recommend Bulleit) * 3/4 oz Ancho Reyes * Barspoon of chiptole maple syrup * 1 dash of mole bitters Stir with ice. Orange peel garnish.</description>
+    </item>
+    
+    <item>
+      <title>Backpack Grill</title>
+      <link>http://zyzyx.github.io/drinking/backpack-grill/</link>
+      <pubDate>Thu, 27 Apr 2023 19:21:53 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/drinking/backpack-grill/</guid>
+      <description>This one goes perfectly with a BBQ on a warm summer night.
+* 2oz Bourbon (recommend Buffalo Trace) * 3/4 oz Sweet Vermouth * 1/4 oz Maple Syrup * 1 dash of Memphis BBQ bitters Stir with ice. Rim a rocks glass with smoked salt, and pour into that.</description>
+    </item>
+    
+    <item>
+      <title>Gomme</title>
+      <link>http://zyzyx.github.io/drinking/gomme/</link>
+      <pubDate>Thu, 27 Apr 2023 18:28:03 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/drinking/gomme/</guid>
+      <description>Gomme syrup is made with gum arabic, and imparts 2 qualities to any cocktail made with it:
+Any alcohol burn or off-taste is reduced slightly. It will not hide bottom-shelf trash, but it will smooth out an edge if there is one. It brings ingredients a little closer to balance. The texture is thickened, bringing to mind a smoother, almost silk-like texture. This recipe is the rich version, treat it like a 2:1 simple syrup.</description>
+    </item>
+    
+    <item>
+      <title>Cocktail Templates</title>
+      <link>http://zyzyx.github.io/drinking/templates/</link>
+      <pubDate>Thu, 27 Apr 2023 18:20:59 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/drinking/templates/</guid>
+      <description>If you&amp;rsquo;re ever up for trying something new, or just really lazy, these template recipes for drinks will almost always yield something interesting. Use them a few times with different ingredients to figure out what you really like.
+Basic Cocktail * 1 teaspoon of Simple Syrup * 2oz of any base spirit (gin, vodka, tequila, whiskey, whisky, brandy, or rum) * 2 dashes of bitters * 1/2 teaspoon of Cointreau Stir together with ice, and then express a lemon peel over it.</description>
+    </item>
+    
+    <item>
       <title>Zapotechnica</title>
       <link>http://zyzyx.github.io/drinking/zapotechnica/</link>
       <pubDate>Fri, 21 Apr 2023 15:30:29 -0400</pubDate>
@@ -189,6 +229,16 @@ Brown Butter-washed Gold Rum 1 750ml bottle ‘Gold’ Rum 1 lb unsalted butter 
     </item>
     
     <item>
+      <title>Jungle Cat</title>
+      <link>http://zyzyx.github.io/drinking/jungle-cat/</link>
+      <pubDate>Mon, 17 Apr 2023 21:31:01 -0400</pubDate>
+      
+      <guid>http://zyzyx.github.io/drinking/jungle-cat/</guid>
+      <description>Cocktail A smoky twist on the bitter Tiki darling the Jungle Bird, with a touch of dry heat and ample complexity from the addition of spice to the classic framework.
+1 ½ oz Mezcal* ¾ oz Campari 1 ¼ oz pineapple juice ½ oz lime juice ¾ oz Caribbean Jerk Syrup Add all ingredients to shaker, add ice, shake vigorously until properly chilled. Double-strain over new ice in a Collins glass.</description>
+    </item>
+    
+    <item>
       <title>Inca Trail</title>
       <link>http://zyzyx.github.io/drinking/inca-trail/</link>
       <pubDate>Mon, 17 Apr 2023 21:28:34 -0400</pubDate>
@@ -321,16 +371,6 @@ Lemongrass-infused Corn Moonshine 750ml bottle Corn Moonshine 8 stalks of lemong
       <guid>http://zyzyx.github.io/drinking/age-of-sail/</guid>
       <description>Cocktail A boozy cane spirit cocktail with a delicate floral essence and complex undertones of bittersweet citrus.
 1 ½ oz Haitian Rhum* 1 ½ oz Contratto Bianco ¼ oz Amaro Montenegro shy ¼ oz Pomegranate Grenadine 3 dashes (3 ml) Angostura Bitters Add all ingredients to a mixing glass, add ice, gently stir until properly chilled. Strain into chilled coupe glass. Garnish with an orange peel, taking care to express the citrus oil over the edge and stem of the glass, and across the surface of the drink.</description>
-    </item>
-    
-    <item>
-      <title>Jungle Cat</title>
-      <link>http://zyzyx.github.io/drinking/jungle-cat/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://zyzyx.github.io/drinking/jungle-cat/</guid>
-      <description>Cocktail A smoky twist on the bitter Tiki darling the Jungle Bird, with a touch of dry heat and ample complexity from the addition of spice to the classic framework.
-1 ½ oz Mezcal* ¾ oz Campari 1 ¼ oz pineapple juice ½ oz lime juice ¾ oz Caribbean Jerk Syrup Add all ingredients to shaker, add ice, shake vigorously until properly chilled. Double-strain over new ice in a Collins glass.</description>
     </item>
     
   </channel>
